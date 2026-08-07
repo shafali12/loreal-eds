@@ -1,7 +1,10 @@
 import { createOptimizedPicture } from '../../scripts/aem.js';
-import { moveInstrumentation } from '../../scripts/scripts.js';
+import { moveInstrumentation, decorateExternalImages } from '../../scripts/scripts.js';
 
 export default function decorate(block) {
+  // On AEM (author/publish) the image field is delivered as <a href="…jpg">,
+  // not <picture>. Convert those links to <picture><img> so the checks below work.
+  decorateExternalImages(block);
   /* change to ul, li */
   const ul = document.createElement('ul');
   [...block.children].forEach((row) => {

@@ -1,5 +1,5 @@
 import { createOptimizedPicture } from '../../scripts/aem.js';
-import { moveInstrumentation } from '../../scripts/scripts.js';
+import { moveInstrumentation, decorateExternalImages } from '../../scripts/scripts.js';
 
 /**
  * Build an always-visible horizontal scroll progress bar synced to the card
@@ -43,6 +43,9 @@ function withScrollTrack(ul) {
 }
 
 export default function decorate(block) {
+  // AEM delivers image fields as <a href="…jpg"> rather than <picture>; convert
+  // them so the picture-based card detection below works on author/publish too.
+  decorateExternalImages(block);
   /* change to ul, li */
   const ul = document.createElement('ul');
   [...block.children].forEach((row) => {

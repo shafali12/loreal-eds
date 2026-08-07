@@ -1,4 +1,4 @@
-import { moveInstrumentation } from '../../scripts/scripts.js';
+import { moveInstrumentation, decorateExternalImages } from '../../scripts/scripts.js';
 
 /*
  * Brand-portfolio carousel (L'Oréal "Our global complementary brands").
@@ -102,6 +102,9 @@ function extractDivisions(block, chipCount, richHref) {
 }
 
 export default function decorate(block) {
+  // AEM delivers image fields as <a href="…jpg"> rather than <picture>; convert
+  // them first so the picture-based slide detection below works on author/publish.
+  decorateExternalImages(block);
   const rows = [...block.querySelectorAll(':scope > div')];
   const parsed = rows.map((row) => {
     const cols = [...row.children];
