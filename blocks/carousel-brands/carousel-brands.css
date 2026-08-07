@@ -1,0 +1,376 @@
+/*
+ * carousel-brands — L'Oréal "Our global complementary brands" brand selector.
+ * A full-bleed hero for the featured brand (background image + overlay copy +
+ * outlined-white CTA) with a horizontally scrollable strip of circular
+ * brand-logo chips beneath it, flanked by round prev/next arrow buttons.
+ */
+
+.carousel-brands .carousel-brands-hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: 460px;
+  overflow: hidden;
+  background-color: #1a1a1a;
+}
+
+/* Background image fills the hero */
+.carousel-brands .carousel-brands-hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+/* Soft left-to-right dark scrim so the white overlay copy stays legible over
+   lighter areas of the brand imagery. */
+.carousel-brands .carousel-brands-hero-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgb(0 0 0 / 45%) 0%, rgb(0 0 0 / 20%) 40%, rgb(0 0 0 / 0%) 70%);
+}
+
+.carousel-brands .carousel-brands-hero-bg picture,
+.carousel-brands .carousel-brands-hero-bg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+/* Overlay copy — top-left, white, over a soft left-to-right scrim */
+.carousel-brands .carousel-brands-hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 620px;
+  padding: 48px 24px 24px;
+  color: #fff;
+}
+
+.carousel-brands .carousel-brands-hero-content .carousel-brands-eyebrow {
+  margin: 0 0 12px;
+  font-family: var(--body-font-family);
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.carousel-brands .carousel-brands-hero-content h2 {
+  margin: 0 0 12px;
+  font-family: var(--heading-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.carousel-brands .carousel-brands-hero-content h3 {
+  margin: 0 0 16px;
+  font-family: var(--body-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #fff;
+}
+
+.carousel-brands .carousel-brands-hero-content p {
+  margin: 0 0 16px;
+  font-family: var(--body-font-family);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/* Outlined-white "Discover the brand" pill */
+.carousel-brands .carousel-brands-hero-content a.button:any-link {
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.carousel-brands .carousel-brands-hero-content a.button:any-link:hover,
+.carousel-brands .carousel-brands-hero-content a.button:any-link:focus-visible {
+  background-color: #fff;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+/*
+ * Logo-featured state — used for the 53 brands that were migrated as a logo
+ * only (no marketing photo/copy). A soft neutral backdrop with the brand's logo
+ * mark centred above its name, so the featured area still changes on every
+ * navigation. Selecting the one richly-authored brand returns to the photo hero.
+ */
+.carousel-brands .carousel-brands-hero-logomode {
+  background: linear-gradient(135deg, #efece9 0%, #e3ded9 100%);
+}
+
+.carousel-brands .carousel-brands-hero-logomode .carousel-brands-hero-bg {
+  display: none;
+}
+
+.carousel-brands .carousel-brands-hero-logomode .carousel-brands-hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  max-width: none;
+  padding: 56px 24px 24px;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.carousel-brands .carousel-brands-hero-logomode .carousel-brands-eyebrow {
+  color: #7a7a7a;
+}
+
+.carousel-brands .carousel-brands-hero-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 130px;
+  margin: 8px 0 20px;
+}
+
+.carousel-brands .carousel-brands-hero-logo picture,
+.carousel-brands .carousel-brands-hero-logo img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.carousel-brands .carousel-brands-hero-logomode h2 {
+  color: var(--text-color);
+}
+
+/* --- Brand-logo selector strip ---
+   Centered cluster of arrow + a fixed window of exactly 5 chips + arrow,
+   matching the live selector. The rail scrolls one chip at a time; only the
+   5-chip window is visible, the rest are clipped. */
+.carousel-brands {
+  --chip-size: 80px;
+  --chip-gap: 14px;
+  --chips-visible: 5;
+}
+
+.carousel-brands .carousel-brands-selector {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: auto;
+  padding: 20px 12px 28px;
+}
+
+.carousel-brands .carousel-brands-rail {
+  display: flex;
+  align-items: center;
+  gap: var(--chip-gap);
+  flex: 0 0 auto;
+  width: calc(var(--chips-visible) * var(--chip-size) + (var(--chips-visible) - 1) * var(--chip-gap));
+  max-width: 100%;
+  margin: 0;
+  padding: 4px 0;
+  list-style: none;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.carousel-brands .carousel-brands-rail::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-brands .carousel-brands-chip {
+  flex: 0 0 auto;
+  margin: 0;
+}
+
+/* Circular brand-logo chip — translucent by default, opaque white when active.
+   Roomy circle with a small inset logo, matching the live selector. */
+.carousel-brands .carousel-brands-chip button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--chip-size);
+  height: var(--chip-size);
+  margin: 0;
+  padding: 20px;
+  border: 0;
+  border-radius: 50%;
+  background-color: rgb(255 255 255 / 55%);
+  cursor: pointer;
+  transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.carousel-brands .carousel-brands-chip button:hover,
+.carousel-brands .carousel-brands-chip button:focus-visible {
+  background-color: rgb(255 255 255 / 80%);
+}
+
+.carousel-brands .carousel-brands-chip.is-active button {
+  background-color: #fff;
+  transform: scale(1.08);
+}
+
+.carousel-brands .carousel-brands-chip button picture,
+.carousel-brands .carousel-brands-chip button img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Round prev/next arrow buttons */
+.carousel-brands .carousel-brands-nav {
+  position: relative;
+  flex: 0 0 auto;
+  width: 56px;
+  height: 56px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 15%);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.carousel-brands .carousel-brands-nav:hover,
+.carousel-brands .carousel-brands-nav:focus-visible {
+  background-color: #ececec;
+}
+
+.carousel-brands .carousel-brands-nav::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #1a1a1a;
+  border-bottom: 0;
+  border-left: 0;
+}
+
+.carousel-brands .carousel-brands-nav-prev::after {
+  transform: translate(-30%, -50%) rotate(-135deg);
+}
+
+.carousel-brands .carousel-brands-nav-next::after {
+  transform: translate(-70%, -50%) rotate(45deg);
+}
+
+/*
+ * Division filter tabs — a vertical list sitting at the lower-left of the hero,
+ * matching the live "All / Consumer Products / Luxe / …" selector. White text
+ * over the hero imagery; the active division is bold with a leading marker.
+ * Placed after the chip/nav button rules to satisfy no-descending-specificity.
+ */
+.carousel-brands .carousel-brands-filters {
+  position: relative;
+  z-index: 1;
+  align-self: flex-start;
+  margin: auto 0 8px;
+  padding: 0 24px;
+  list-style: none;
+}
+
+.carousel-brands .carousel-brands-filter {
+  margin: 0;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.carousel-brands .carousel-brands-filter button {
+  position: relative;
+  margin: 0;
+  padding: 5px 0 5px 20px;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  font-family: var(--body-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: left;
+  cursor: pointer;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.carousel-brands .carousel-brands-filter button:hover,
+.carousel-brands .carousel-brands-filter button:focus-visible {
+  opacity: 1;
+}
+
+/* Active division — bold, full opacity, with a short dash marker to its left. */
+.carousel-brands .carousel-brands-filter button.is-active {
+  font-weight: 700;
+  opacity: 1;
+}
+
+.carousel-brands .carousel-brands-filter button.is-active::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 12px;
+  height: 2px;
+  background: #fff;
+  transform: translateY(-50%);
+}
+
+/* In the logo-featured state the hero backdrop is light, so flip tab colours. */
+.carousel-brands .carousel-brands-hero-logomode .carousel-brands-filter button {
+  color: var(--text-color);
+}
+
+.carousel-brands .carousel-brands-hero-logomode .carousel-brands-filter button.is-active::before {
+  background: var(--text-color);
+}
+
+@media (width >= 900px) {
+  .carousel-brands .carousel-brands-hero {
+    min-height: 620px;
+  }
+
+  .carousel-brands .carousel-brands-hero-content {
+    padding: 80px 64px 24px;
+  }
+
+  .carousel-brands .carousel-brands-hero-content h2 {
+    font-size: 48px;
+  }
+
+  .carousel-brands {
+    --chip-size: 100px;
+    --chip-gap: 16px;
+  }
+
+  .carousel-brands .carousel-brands-selector {
+    gap: 20px;
+    padding: 24px 40px 44px;
+  }
+
+  .carousel-brands .carousel-brands-chip button {
+    padding: 24px;
+  }
+}

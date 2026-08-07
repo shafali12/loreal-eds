@@ -1,0 +1,42 @@
+{
+  "variantName": "carousel-brands",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-08-06T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.loreal.com/en/our-global-brands-portfolio",
+    "originPage": "L'Oréal Groupe - Our Global Brands Portfolio page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "brand-showcase",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "focus panel (background image + eyebrow + brand title + baseline + description + CTA) + division filter buttons + horizontally-looping logo carousel with prev/next navigation",
+    "buttonCount": 1,
+    "imageCount": 54,
+    "logoCount": 53,
+    "filterCount": 5
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "filterable brand / logo showcases with a persistent focus panel highlighting one item",
+      "looping logo carousels navigated by prev/next arrows and filtered by category tabs",
+      "'Focus On' style brand spotlights combining a lifestyle background image with a scrolling logo strip"
+    ],
+    "notSuitableFor": [
+      "full-bleed multi-slide HERO banners with per-slide headline + single CTA (use carousel-hero)",
+      "simple horizontal portrait-card scrollers with a title + link per card (use cards-scroller)",
+      "static 2-4-up feature card grids with descriptions and CTAs (use cards-feature)",
+      "single static page-title banners (use hero-stage)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/en/our-global-brands-portfolio"],
+    "reuseCount": 1,
+    "lastUsed": "2026-08-06T00:00:00.000Z"
+  }
+}

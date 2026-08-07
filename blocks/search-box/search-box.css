@@ -1,0 +1,201 @@
+/*
+ * search-box — L'Oréal "Find out more" search card: a white rounded card with a
+ * centered serif heading, a full-width input, and a beige "Search" button.
+ * The card floats up to overlap the bottom edge of the hero above it.
+ */
+
+/* Lift the whole section so the card straddles the hero's bottom edge.
+   Scoped under .section to outspecify the global `main > .section > div`
+   margin reset. */
+main .section > .search-box-wrapper {
+  position: relative;
+  z-index: 2;
+  margin-top: -50px;
+}
+
+.search-box {
+  max-width: 1056px;
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+/* The visible white card (heading + input row) — one rounded element with a
+   single soft shadow so it reads as a clean floating card, matching the source. */
+.search-box .search-box-card {
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 24px 48px -24px rgb(0 0 0 / 35%);
+  overflow: hidden;
+}
+
+.search-box .search-box-heading {
+  margin: 0;
+  padding: 0 16px;
+  background-color: #fff;
+  text-align: center;
+  font-family: var(--heading-font-family);
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: var(--text-color);
+}
+
+.search-box .search-box-box {
+  display: flex;
+  align-items: stretch;
+  border-top: 1px solid rgb(61 61 61 / 15%);
+  border-radius: 0 0 15px 15px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.search-box .search-box-box input {
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 0;
+  padding: 0 24px;
+  height: 51px;
+  border: none;
+  background-color: #fff;
+  color: var(--text-color);
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+.search-box .search-box-box input:focus {
+  outline: none;
+}
+
+.search-box .search-box-box .search-box-submit {
+  flex: 0 0 auto;
+  min-width: 200px;
+  margin: 0;
+  border: none;
+  padding: 0 24px;
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  font-family: var(--body-font-family);
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+  transition: background-color var(--button-transition);
+}
+
+.search-box .search-box-box .search-box-submit:hover {
+  background-color: var(--accent-hover-color);
+}
+
+/* search results */
+.search-box ul.search-box-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
+  gap: 24px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.search-box ul.search-box-results > li {
+  border: 1px solid #dadada;
+}
+
+.search-box ul.search-box-results > li > a {
+  display: block;
+  height: 100%;
+  background-color: transparent;
+  color: currentcolor;
+  cursor: pointer;
+}
+
+.search-box ul.search-box-results > li > a:hover,
+.search-box ul.search-box-results > li > a:focus {
+  text-decoration: none;
+}
+
+.search-box ul.search-box-results > li .search-box-result-title,
+.search-box ul.search-box-results > li p {
+  padding: 0 16px;
+}
+
+.search-box ul.search-box-results > li .search-box-result-title {
+  font-size: var(--body-font-size-m);
+  font-weight: normal;
+}
+
+.search-box ul.search-box-results > li .search-box-result-title a {
+  color: currentcolor;
+  text-decoration: none;
+}
+
+.search-box ul.search-box-results > li p {
+  font-size: var(--body-font-size-s);
+}
+
+.search-box ul.search-box-results > li .search-box-result-image {
+  aspect-ratio: 4 / 3;
+}
+
+.search-box ul.search-box-results > li picture img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* no results */
+.search-box ul.search-box-results.no-results {
+  display: block;
+  margin-left: 34px;
+}
+
+.search-box ul.search-box-results.no-results > li {
+  border: none;
+}
+
+/* minimal variant */
+.search-box.minimal ul.search-box-results {
+  display: block;
+  padding-left: 34px;
+}
+
+.search-box.minimal ul.search-box-results > li {
+  position: relative;
+  border: none;
+}
+
+.search-box.minimal ul.search-box-results > li .search-box-result-title,
+.search-box.minimal ul.search-box-results > li p {
+  padding: unset;
+}
+
+.search-box.minimal ul.search-box-results > li .search-box-result-title a {
+  color: var(--link-color);
+}
+
+/* stylelint-disable no-descending-specificity */
+.search-box.minimal ul.search-box-results > li > a {
+  background-color: unset;
+}
+
+.search-box.minimal ul.search-box-results > li > a:hover a,
+.search-box.minimal ul.search-box-results > li > a:focus a {
+  text-decoration: underline;
+  color: var(--link-hover-color);
+}
+
+.search-box.minimal ul.search-box-results > li .search-box-result-image {
+  position: absolute;
+  top: 2px;
+  left: -34px;
+}
+
+.search-box.minimal ul.search-box-results .search-box-result-title + p {
+  margin-top: 0.25em;
+}
+
+.search-box.minimal ul.search-box-results > li picture img {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+}

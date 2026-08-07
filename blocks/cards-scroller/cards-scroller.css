@@ -1,0 +1,194 @@
+/*
+ * cards-scroller — L'Oréal "beautiful stories" horizontal card scroller.
+ * Portrait cards (216x400) with rounded corners and the title overlaid at the
+ * bottom of the image, scrolling horizontally. On desktop the intro text column
+ * ("Discover" / "Our beautiful stories" + paragraph — absorbed from the
+ * preceding default content by the block JS) sits to the left of the cards.
+ */
+
+.cards-scroller {
+  --card-width: 216px;
+  --card-height: 400px;
+}
+
+/* Layout: intro text column + scrolling cards.
+   Left inset keeps the intro/cards off the viewport edge; cards bleed to the
+   right edge (matching the source full-bleed scroller). */
+.cards-scroller .cards-scroller-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-left: 16px;
+}
+
+.cards-scroller .cards-scroller-intro {
+  flex: none;
+}
+
+.cards-scroller .cards-scroller-intro h3 {
+  margin: 0 0 8px;
+  font-family: var(--heading-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.9px;
+}
+
+.cards-scroller .cards-scroller-intro h2 {
+  margin: 0 0 16px;
+  font-family: var(--body-font-family);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 1.75px;
+}
+
+.cards-scroller .cards-scroller-intro p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+}
+
+/* Scroller = card list + always-visible progress track below it */
+.cards-scroller .cards-scroller-scroller {
+  min-width: 0;
+}
+
+/* Card list — horizontal scroll; native scrollbar hidden in favour of the
+   custom always-visible track built by the block JS. */
+.cards-scroller ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+}
+
+.cards-scroller ul::-webkit-scrollbar {
+  display: none; /* WebKit/Blink */
+}
+
+/* Custom scroll track (#d8d8d8) with a dark progress thumb (#3d3d3d) */
+.cards-scroller .cards-scroller-track {
+  position: relative;
+  height: 5px;
+  margin-top: 24px;
+  border-radius: 4px;
+  background: #d8d8d8;
+}
+
+.cards-scroller .cards-scroller-track[hidden] {
+  display: none;
+}
+
+.cards-scroller .cards-scroller-thumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 30%;
+  border-radius: 4px;
+  background: var(--text-color);
+}
+
+.cards-scroller ul > li {
+  position: relative;
+  flex: 0 0 var(--card-width);
+  width: var(--card-width);
+  height: var(--card-height);
+  border-radius: 15px;
+  overflow: hidden;
+  scroll-snap-align: start;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.3s ease, transform 0.4s ease;
+}
+
+/* Hover focus effect: when the row is hovered, dim + shrink every card, then
+   bring the specifically-hovered card back to full opacity and scale so it
+   appears to zoom in relative to its siblings (matches the live site). */
+.cards-scroller ul:hover > li {
+  opacity: 0.5;
+  transform: scale(0.95);
+}
+
+.cards-scroller ul:hover > li:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.cards-scroller .cards-scroller-card-image {
+  position: absolute;
+  inset: 0;
+  line-height: 0;
+}
+
+.cards-scroller .cards-scroller-card-image picture,
+.cards-scroller .cards-scroller-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Title overlaid at the bottom of the image */
+.cards-scroller .cards-scroller-card-body {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 20px 16px;
+  background: linear-gradient(to top, rgb(0 0 0 / 55%), rgb(0 0 0 / 0%));
+}
+
+.cards-scroller .cards-scroller-card-body p {
+  margin: 0;
+  text-align: center;
+  font-family: var(--heading-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.cards-scroller .cards-scroller-card-body a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Whole card clickable via the overlaid link */
+.cards-scroller .cards-scroller-card-body a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+/* Desktop: intro text column on the left, cards scroll on the right */
+@media (width >= 900px) {
+  .cards-scroller .cards-scroller-layout {
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    padding-left: 48px;
+  }
+
+  .cards-scroller .cards-scroller-intro {
+    flex: 0 0 340px;
+    max-width: 340px;
+  }
+
+  .cards-scroller ul {
+    min-width: 0;
+  }
+
+  /* Keep the track clear of the right viewport edge */
+  .cards-scroller .cards-scroller-track {
+    margin-right: 48px;
+  }
+}

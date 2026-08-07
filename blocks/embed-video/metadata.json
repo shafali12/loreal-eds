@@ -1,0 +1,39 @@
+{
+  "variantName": "embed-video",
+  "baseBlock": "embed",
+  "version": "1.0.0",
+  "created": "2026-08-06T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.loreal.com/en/groupe",
+    "originPage": "L'Oréal Groupe - Discover the Group (about/overview) page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "video",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "poster image + embed URL",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "inline external video embeds inside a copy/content block",
+      "third-party video providers referenced by iframe embed URL (flowplayer/lwcdn, YouTube, Vimeo)",
+      "click-to-play video with a poster/placeholder image"
+    ],
+    "notSuitableFor": [
+      "self-hosted direct video files (use the video block)",
+      "image galleries or rotating media (use carousel)",
+      "purely text or image content that needs no embedded media"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/en/groupe"],
+    "reuseCount": 1,
+    "lastUsed": "2026-08-06T00:00:00.000Z"
+  }
+}

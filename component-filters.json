@@ -19,9 +19,63 @@
     ]
   },
   {
+    "id": "cards-feature",
+    "components": [
+      "card"
+    ]
+  },
+  {
+    "id": "cards-scroller",
+    "components": [
+      "card"
+    ]
+  },
+  {
     "id": "cards",
     "components": [
       "card"
+    ]
+  },
+  {
+    "id": "carousel-brands",
+    "components": [
+      "carousel-brands-item"
+    ]
+  },
+  {
+    "id": "carousel-hero",
+    "components": [
+      "carousel-hero-item"
+    ]
+  },
+  {
+    "id": "columns-quote",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
+  },
+  {
+    "id": "columns-stats",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
     ]
   },
   {

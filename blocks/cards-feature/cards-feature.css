@@ -1,0 +1,155 @@
+/*
+ * cards-feature — L'Oréal "slidercard" feature cards (as on /en/groupe, desktop).
+ * Default: full-bleed image fills the card, title overlaid bottom-left in white,
+ * a white "Discover" pill bottom-right; description hidden.
+ * On hover: a white panel covers the image, the title rises to the top and turns
+ * dark, the description fades in, and the Discover pill turns dark. Whole card is
+ * a pointer (link overlay via the Discover anchor).
+ */
+
+.cards-feature > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+@media (width < 900px) {
+  .cards-feature > ul {
+    grid-template-columns: 1fr;
+    max-width: 440px;
+  }
+}
+
+.cards-feature > ul > li {
+  position: relative;
+  height: 320px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgb(237 236 234);
+  cursor: pointer;
+}
+
+/* Image fills the whole card */
+.cards-feature .cards-feature-card-image {
+  position: absolute;
+  inset: 0;
+  line-height: 0;
+}
+
+.cards-feature .cards-feature-card-image p {
+  margin: 0;
+  height: 100%;
+}
+
+.cards-feature .cards-feature-card-image picture,
+.cards-feature .cards-feature-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* White panel that reveals on hover — covers the image so text takes over */
+.cards-feature > ul > li::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-color: #fff;
+  opacity: 0;
+  transition: opacity 0.4s ease-out;
+}
+
+.cards-feature > ul > li:hover::before,
+.cards-feature > ul > li:focus-within::before {
+  opacity: 1;
+}
+
+/* Body overlays the image */
+.cards-feature .cards-feature-card-body {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+/* Title: white, sits near the bottom by default; rises to top + darkens on hover */
+.cards-feature .cards-feature-card-body h3 {
+  margin: 0;
+  margin-top: auto;
+  font-family: var(--heading-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #fff;
+  text-shadow: 0 1px 6px rgb(0 0 0 / 45%);
+  transition: color 0.4s ease-out, margin-top 0.4s ease-out;
+}
+
+.cards-feature > ul > li:hover .cards-feature-card-body h3,
+.cards-feature > ul > li:focus-within .cards-feature-card-body h3 {
+  margin-top: 0;
+  color: var(--text-color);
+  text-shadow: none;
+}
+
+.cards-feature .cards-feature-card-body p {
+  margin: 0;
+}
+
+/* Discover pill — white by default (bottom-right), dark on hover */
+.cards-feature .cards-feature-card-body p:last-child {
+  position: absolute;
+  right: 16px;
+  bottom: 18px;
+  margin: 0;
+}
+
+.cards-feature .cards-feature-card-body p:last-child a {
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 22px;
+  background-color: #fff;
+  color: var(--text-color);
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-out, color 0.3s ease-out;
+}
+
+.cards-feature > ul > li:hover .cards-feature-card-body p:last-child a,
+.cards-feature > ul > li:focus-within .cards-feature-card-body p:last-child a {
+  background-color: var(--text-color);
+  color: #fff;
+}
+
+/* Whole card clickable via the Discover anchor */
+.cards-feature .cards-feature-card-body p:last-child a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+}
+
+/* Description = the non-Discover paragraph. Hidden by default; fades in on hover
+   below the (now-dark) title. */
+.cards-feature .cards-feature-card-body p:not(:last-child) {
+  margin-top: 16px;
+  opacity: 0;
+  transform: translateY(-20px);
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text-color);
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+}
+
+.cards-feature > ul > li:hover .cards-feature-card-body p:not(:last-child),
+.cards-feature > ul > li:focus-within .cards-feature-card-body p:not(:last-child) {
+  opacity: 1;
+  transform: translateY(0);
+}

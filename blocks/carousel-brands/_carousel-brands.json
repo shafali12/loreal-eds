@@ -1,0 +1,70 @@
+{
+  "definitions": [
+    {
+      "title": "Carousel Brands",
+      "id": "carousel-brands",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Carousel Brands",
+              "filter": "carousel-brands"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Carousel Brands Slide",
+      "id": "carousel-brands-item",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block/item",
+            "template": {
+              "name": "Carousel Brands Slide",
+              "model": "carousel-brands-item"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "carousel-brands-item",
+      "fields": [
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "media_image",
+          "label": "Background Image",
+          "multi": false
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "media_imageAlt",
+          "value": "",
+          "label": "Bacgkround Alt"
+        },
+        {
+          "component": "richtext",
+          "name": "content_text",
+          "value": "",
+          "label": "Text",
+          "valueType": "string"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "carousel-brands",
+      "components": [
+        "carousel-brands-item"
+      ]
+    }
+  ]
+}

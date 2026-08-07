@@ -1,0 +1,42 @@
+/*
+ * brand.css — Design tokens extracted from https://www.loreal.com/en/
+ * Fonts: Halesworth (headings, serif display) and HelveticaNowDisplay (body, sans)
+ * are proprietary L'Oréal typefaces with no public webfont source, so the brand's
+ * own system fallback stacks are used.
+ */
+
+:root {
+  /* fonts — size-adjusted fallbacks (defined in fonts.css) sit before the generic
+     family so substitute glyphs match the proprietary fonts' density. */
+  --heading-font-family: "Halesworth", halesworth-fallback, "Times New Roman", times, serif;
+  --body-font-family: "HelveticaNowDisplay", helveticanow-fallback, arial, helvetica, sans-serif;
+  --script-font-family: "Parisienne", "Snell Roundhand", "Apple Chancery", cursive;
+
+  /* colors — page background is the L'Oréal warm grey */
+  --background-color: #edecea;
+  --text-color: #3d3d3d;
+  --link-color: #3d3d3d;
+  --link-hover-color: #8f8f8f;
+
+  /* light / dark section variants */
+  --light-color: #edecea;
+  --dark-color: #1a1a1a;
+
+  /* spacing */
+  --nav-height: 80px;
+  --section-max-width: 1920px;
+
+  /* heading sizes — desktop */
+  --heading-size-xxl: 50px;
+  --heading-size-xl: 36px;
+  --heading-size-l: 28px;
+  --heading-size-m: 22px;
+  --heading-size-s: 18px;
+  --heading-size-xs: 16px;
+
+  /* brand accent (buttons) */
+  --accent-color: #cdc4ba;
+  --accent-hover-color: #bcb1a4;
+  --button-radius: 22px;
+  --button-transition: 0.3s cubic-bezier(0.63, 0.37, 0.55, 0.9);
+}
