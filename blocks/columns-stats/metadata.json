@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-stats",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-08-06T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.loreal.com/en/groupe",
+    "originPage": "L'Oréal Groupe - Discover the Group (about/overview) page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "stats",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "number + label (x3, side-by-side)",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "key-figures / statistics bands with large numbers and short labels",
+      "3-across (or 2/4-across) text-only columns of headline metrics",
+      "'by the numbers' company facts rows"
+    ],
+    "notSuitableFor": [
+      "image + text side-by-side layouts (use columns-quote or a card grid)",
+      "distinct repeatable cards with CTAs (use cards-feature)",
+      "long comparison copy in multiple paragraphs"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/en/groupe"],
+    "reuseCount": 1,
+    "lastUsed": "2026-08-06T00:00:00.000Z"
+  }
+}

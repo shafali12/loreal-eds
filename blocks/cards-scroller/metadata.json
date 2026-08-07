@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-scroller",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-08-06T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.loreal.com/en/",
+    "originPage": "L'Oréal Groupe corporate homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "feature",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + title + link",
+    "cardCount": 5,
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "horizontally-scrolling galleries of story / feature cards",
+      "portrait image cards with a title and destination link",
+      "'discover more' content teasers on landing pages"
+    ],
+    "notSuitableFor": [
+      "dense text-heavy card grids with descriptions and CTAs",
+      "single feature highlights (use hero or columns)",
+      "tabular or comparison data"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/en/index", "/en/commitments-and-responsibilities", "/en/our-global-brands-portfolio"],
+    "reuseCount": 3,
+    "lastUsed": "2026-08-06T00:00:00.000Z"
+  }
+}

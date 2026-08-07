@@ -1,0 +1,177 @@
+/*
+ * columns-quote — L'Oréal leadership quote card (as on /en/groupe).
+ * Portrait image on the left, text column on the right (vertically centered):
+ * bold name, grey subtitle, a serif pull-quote, then a body paragraph.
+ * Sits on a white card panel over the grey page background.
+ *
+ * Source text-column order in the DOM is: pull-quote (blockquote), body
+ * (blockquote), name (p>strong), subtitle (p). The live design shows
+ * name → subtitle → pull-quote → body, so flex `order` re-sequences them.
+ */
+
+.columns-quote > div {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+/* Image column */
+.columns-quote .columns-quote-img-col {
+  order: 0;
+  line-height: 0;
+}
+
+.columns-quote .columns-quote-img-col picture,
+.columns-quote .columns-quote-img-col img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Text column */
+.columns-quote .columns-quote-text-col {
+  order: 1;
+  padding: 32px 24px;
+}
+
+/* Inner wrapper becomes a flex column that re-orders the pieces */
+.columns-quote .columns-quote-text-col > p {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+}
+
+.columns-quote .columns-quote-text-col > p > * {
+  margin: 0;
+}
+
+/* Name (p > strong) — first */
+.columns-quote .columns-quote-name {
+  order: 1;
+}
+
+.columns-quote .columns-quote-name strong {
+  font-family: var(--body-font-family);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #000;
+}
+
+/* Subtitle — second */
+.columns-quote .columns-quote-subtitle {
+  order: 2;
+  font-family: var(--body-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #3c3c3c;
+}
+
+/* Pull-quote (first blockquote) — third, serif bold */
+.columns-quote .columns-quote-pullquote {
+  order: 3;
+  margin-top: 8px;
+}
+
+.columns-quote .columns-quote-pullquote p {
+  margin: 0;
+  font-family: var(--heading-font-family);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #000;
+}
+
+/* Body (second blockquote) — fourth, sans regular */
+.columns-quote .columns-quote-body {
+  order: 4;
+}
+
+.columns-quote .columns-quote-body p {
+  margin: 0;
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--text-color);
+}
+
+/* Desktop: two columns, image left, text right, vertically centered */
+@media (width >= 900px) {
+  .columns-quote-2-cols > div {
+    flex-direction: row;
+    align-items: center;
+    gap: 56px;
+    padding: 40px;
+  }
+
+  .columns-quote .columns-quote-img-col {
+    flex: 0 0 42%;
+    max-width: 500px;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .columns-quote .columns-quote-text-col {
+    flex: 1;
+    padding: 0;
+  }
+}
+
+/*
+ * Single-column signature quote (no image) — the standalone leadership pull-quote
+ * as on /en/commitments-and-responsibilities. Large centred script/handwriting
+ * quote, with the name + title in the body face beneath.
+ */
+.columns-quote-1-cols > div {
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 24px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.columns-quote-1-cols blockquote {
+  margin: 0;
+  order: 0;
+}
+
+/* Variant override for the single-column signature quote's script text.
+   Scoped via the .columns-quote-pullquote class to keep specificity above the
+   base text-column rules and avoid a descending-specificity conflict. */
+.columns-quote-1-cols .columns-quote-text-col .columns-quote-pullquote p {
+  margin: 0;
+  font-family: var(--script-font-family);
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--text-color);
+}
+
+/* Name + title beneath the quote, in the body face */
+.columns-quote-1-cols .columns-quote-name {
+  order: 1;
+  margin-top: 24px;
+}
+
+.columns-quote-1-cols .columns-quote-name strong {
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.columns-quote-1-cols .columns-quote-subtitle {
+  order: 2;
+  margin-top: 4px;
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-color);
+}

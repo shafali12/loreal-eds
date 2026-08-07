@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-feature",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-08-06T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.loreal.com/en/groupe",
+    "originPage": "L'Oréal Groupe - Discover the Group (about/overview) page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "feature",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + title + description + CTA",
+    "cardCount": 3,
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "static side-by-side feature card grids (2-4 up)",
+      "cards with an image, a title, a short description, and a Discover/CTA button",
+      "navigation teasers linking to sibling landing pages"
+    ],
+    "notSuitableFor": [
+      "horizontally-scrolling galleries of title-only portrait cards (use cards-scroller)",
+      "text-only card lists without images",
+      "rotating/carousel presentations"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/en/groupe"],
+    "reuseCount": 1,
+    "lastUsed": "2026-08-06T00:00:00.000Z"
+  }
+}

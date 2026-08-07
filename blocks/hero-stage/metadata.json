@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-stage",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-08-06T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.loreal.com/en/groupe",
+    "originPage": "L'Oréal Groupe - Discover the Group (about/overview) page",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "full-bleed static page-title hero stages on about / overview pages",
+      "single background photograph with a large page title overlaid",
+      "top-of-page banners with no CTA and no rotation"
+    ],
+    "notSuitableFor": [
+      "rotating multi-slide hero banners (use carousel-hero)",
+      "heroes that require a prominent call-to-action button",
+      "text-only intros without a background image"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/en/groupe", "/en/commitments-and-responsibilities", "/en/our-global-brands-portfolio"],
+    "reuseCount": 3,
+    "lastUsed": "2026-08-06T00:00:00.000Z"
+  }
+}

@@ -1,0 +1,191 @@
+.carousel-hero {
+  position: relative;
+}
+
+.carousel-hero .carousel-hero-slides-container {
+  position: relative;
+}
+
+.carousel-hero .carousel-hero-slides,
+.carousel-hero .carousel-hero-slide-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-hero .carousel-hero-slides {
+  display: flex;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  overflow: scroll clip;
+}
+
+.carousel-hero .carousel-hero-slides::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-hero .carousel-hero-slide {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  min-height: min(50vw, calc(100dvh - var(--header-height)));
+}
+
+.carousel-hero .carousel-hero-slide:has(.carousel-hero-slide-content[data-align='center']) {
+  align-items: center;
+}
+
+.carousel-hero .carousel-hero-slide:has(.carousel-hero-slide-content[data-align='right']) {
+  align-items: flex-end;
+}
+
+.carousel-hero .carousel-hero-slide .carousel-hero-slide-image picture {
+  position: absolute;
+  inset: 0;
+}
+
+.carousel-hero .carousel-hero-slide .carousel-hero-slide-image picture > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-hero .carousel-hero-slide .carousel-hero-slide-content {
+  z-index: 1;
+  margin: 68px;
+  padding: 16px;
+  color: white;
+  background-color: rgb(19 19 19 / 75%);
+  position: relative;
+  width: var(--slide-content-width, auto);
+}
+
+/* Pagination dots overlaid near the hero bottom, centered, sitting clear of the
+   search card that overlaps the hero's bottom edge (matches live). */
+.carousel-hero > nav[aria-label] {
+  position: absolute;
+  bottom: 90px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-hero .carousel-hero-slide-indicators {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 0;
+  background-color: transparent;
+  line-height: 0;
+}
+
+.carousel-hero .carousel-hero-slide-indicator button {
+  width: 11px;
+  height: 11px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: rgb(217 217 217 / 50%);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+/* Active dot (the one whose button is disabled) is solid white. */
+.carousel-hero .carousel-hero-slide-indicator button:disabled {
+  background-color: #fff;
+  cursor: default;
+}
+
+.carousel-hero .carousel-hero-slide-indicator button:hover,
+.carousel-hero .carousel-hero-slide-indicator button:focus-visible {
+  background-color: #fff;
+}
+
+.carousel-hero .carousel-hero-navigation-buttons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 12px;
+  right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+/* Round white nav buttons matching the live site. */
+/* stylelint-disable-next-line no-descending-specificity */
+.carousel-hero .carousel-hero-navigation-buttons button {
+  position: relative;
+  width: 58px;
+  height: 58px;
+  margin: 0;
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+  background-color: #fff;
+  box-shadow: 0 3px 12px rgb(0 0 0 / 25%);
+  cursor: pointer;
+  transition: opacity 0.2s, background-color 0.2s;
+}
+
+.carousel-hero .carousel-hero-navigation-buttons button:hover,
+.carousel-hero .carousel-hero-navigation-buttons button:focus-visible {
+  background-color: #fff;
+  opacity: 0.85;
+}
+
+/* Disabled (e.g. prev on first slide): faded light-grey, no shadow */
+.carousel-hero .carousel-hero-navigation-buttons button:disabled {
+  background-color: #f5f5f5;
+  box-shadow: none;
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* Dark chevron arrow */
+.carousel-hero .carousel-hero-navigation-buttons button::after {
+  display: block;
+  content: '';
+  border: 2px solid var(--text-color);
+  border-bottom: 0;
+  border-left: 0;
+  height: 11px;
+  width: 11px;
+  position: absolute;
+  top: 50%;
+  left: calc(50% + 3px);
+  transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+.carousel-hero .carousel-hero-navigation-buttons button.slide-next::after {
+  transform: translate(-50%, -50%) rotate(45deg);
+  left: calc(50% - 3px);
+}
+
+@media (width >= 600px) {
+  .carousel-hero .carousel-hero-navigation-buttons {
+    left: 24px;
+    right: 24px;
+  }
+
+  .carousel-hero .carousel-hero-slide .carousel-hero-slide-content {
+    --slide-content-width: calc((100% - 184px) / 2);
+
+    margin: 92px;
+  }
+
+  .carousel-hero .carousel-hero-slide .carousel-hero-slide-content[data-align='justify'] {
+    --slide-content-width: auto;
+  }
+}

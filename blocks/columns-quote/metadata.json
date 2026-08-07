@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-quote",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-08-06T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.loreal.com/en/groupe",
+    "originPage": "L'Oréal Groupe - Discover the Group (about/overview) page",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "quote",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "portrait image | name + role + pull-quote + supporting quote",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "leadership / manifesto quotes with a portrait beside attributed text",
+      "two-column image + rich-text testimonial layouts",
+      "spotlight blocks pairing a person's photo with their statement"
+    ],
+    "notSuitableFor": [
+      "text-only statistics bands (use columns-stats)",
+      "repeatable card grids with CTAs (use cards-feature)",
+      "full-bleed hero banners (use hero-stage)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/en/groupe", "/en/commitments-and-responsibilities"],
+    "reuseCount": 2,
+    "lastUsed": "2026-08-06T00:00:00.000Z"
+  }
+}

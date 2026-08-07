@@ -1,36 +1,42 @@
 /* stylelint-disable max-line-length */
+
+/*
+ * L'Oréal uses proprietary typefaces — Halesworth (headings) and
+ * HelveticaNowDisplay (body) — which are not available from any public
+ * webfont service (Google Fonts / Adobe Fonts). The design therefore relies
+ * on the brand's own system fallback stacks defined in brand.css:
+ *   headings: "Halesworth", "Times New Roman", Times, serif
+ *   body:     "HelveticaNowDisplay", Arial, Helvetica, sans-serif
+ *
+ * If licensed .woff2 files for these fonts become available, add matching
+ * @font-face declarations here (font-display: swap) and they will be picked
+ * up automatically via the existing --heading-font-family / --body-font-family
+ * variables.
+ *
+ * Script/signature quotes use L'Oréal's proprietary "Velocity" handwriting
+ * face (also unavailable publicly); "Parisienne" from Google Fonts is a close
+ * thin, connected substitute, exposed via --script-font-family in brand.css.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+/*
+ * Size-adjusted fallback fonts. The proprietary faces are unavailable, and the
+ * plain system fallbacks (Arial / Times New Roman) render noticeably wider and
+ * heavier than L'Oréal's condensed typefaces at the same px — making the page
+ * look oversized. These size-adjusted @font-face aliases shrink the fallbacks to
+ * match the real fonts' measured density:
+ *   HelveticaNowDisplay ≈ 86% of Arial's width  → helveticanow-fallback
+ *   Halesworth          ≈ 90% of Times' width    → halesworth-fallback
+ * They are wired into the font stacks in brand.css / styles.css.
+ */
 @font-face {
-  font-family: roboto-condensed;
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('../fonts/roboto-condensed-bold.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-family: helveticanow-fallback;
+  src: local('Arial'), local('Helvetica'), local('Liberation Sans'), local('Arimo'), local('DejaVu Sans');
+  size-adjust: 86%;
 }
 
 @font-face {
-  font-family: roboto;
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('../fonts/roboto-bold.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url('../fonts/roboto-medium.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: roboto;
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('../fonts/roboto-regular.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-family: halesworth-fallback;
+  src: local('Times New Roman'), local('Times'), local('Liberation Serif'), local('Tinos'), local('DejaVu Serif');
+  size-adjust: 90%;
 }
