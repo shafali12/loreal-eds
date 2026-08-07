@@ -1,4 +1,4 @@
-import { moveInstrumentation } from '../../scripts/scripts.js';
+import { moveInstrumentation, decorateExternalImages } from '../../scripts/scripts.js';
 import { fetchPlaceholders } from '../../scripts/placeholders.js';
 
 function updateActiveSlide(slide) {
@@ -92,6 +92,9 @@ function createSlide(row, slideIndex, carouselId) {
 
 let carouselId = 0;
 export default async function decorate(block) {
+  // AEM delivers image fields as <a href="…jpg"> rather than <picture>; convert
+  // them first so slide images render on author/publish, not just locally.
+  decorateExternalImages(block);
   carouselId += 1;
   block.setAttribute('id', `carousel-hero-${carouselId}`);
   const rows = block.querySelectorAll(':scope > div');

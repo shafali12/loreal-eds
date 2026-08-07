@@ -1,4 +1,9 @@
+import { decorateExternalImages } from '../../scripts/scripts.js';
+
 export default function decorate(block) {
+  // AEM delivers image fields as <a href="…jpg"> rather than <picture>; convert
+  // them so the portrait picture detection below works on author/publish too.
+  decorateExternalImages(block);
   const cols = [...block.firstElementChild.children];
   block.classList.add(`columns-quote-${cols.length}-cols`);
 

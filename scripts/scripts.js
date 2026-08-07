@@ -58,12 +58,59 @@ async function loadFonts() {
 }
 
 /**
+ * Converts links that point at an image file into real <picture><img> elements.
+ *
+ * When content is delivered from AEM (author/publish), image-reference fields that
+ * hold an external URL (e.g. loreal.com media) come through as a plain
+ * <a href="…jpg">…</a> rather than an <img>. Block decorators expect <picture>/<img>,
+ * so without this the image URL renders as literal link text. Running this before
+ * decorateBlocks gives every block the <picture> structure it expects — matching how
+ * the same content renders locally.
+ * @param {Element} main The container element
+ */
+export function decorateExternalImages(main) {
+  const isImageUrl = (url) => {
+    try {
+      const { pathname } = new URL(url, window.location.href);
+      return /\.(jpe?g|png|gif|svg|webp|avif|bmp|tiff?)$/i.test(pathname);
+    } catch {
+      return false;
+    }
+  };
+
+  main.querySelectorAll('a[href]').forEach((a) => {
+    const href = a.getAttribute('href');
+    if (!href || a.querySelector('img') || !isImageUrl(href)) return;
+
+    const text = (a.textContent || '').trim();
+    // If the link text is just the URL itself, there is no meaningful alt text.
+    let alt = '';
+    if (text && text !== href) {
+      try {
+        alt = new URL(text, window.location.href).href === new URL(href, window.location.href).href ? '' : text;
+      } catch {
+        alt = text;
+      }
+    }
+
+    const picture = document.createElement('picture');
+    const img = document.createElement('img');
+    img.setAttribute('src', href);
+    img.setAttribute('alt', alt);
+    img.setAttribute('loading', 'lazy');
+    picture.append(img);
+    moveInstrumentation(a, img);
+    a.replaceWith(picture);
+  });
+}
+
+/**
  * Builds all synthetic blocks in a container element.
  * @param {Element} main The container element
  */
-function buildAutoBlocks() {
+function buildAutoBlocks(main) {
   try {
-    // TODO: add auto block, if needed
+    decorateExternalImages(main);
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);
