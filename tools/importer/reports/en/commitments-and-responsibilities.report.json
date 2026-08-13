@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.loreal.com/en/commitments-and-responsibilities",
+  "path": "en/commitments-and-responsibilities",
+  "timestamp": "2026-08-06T16:52:47.427Z",
+  "title": "",
+  "template": "commitments-overview",
+  "blocks": [
+    "hero-stage",
+    "cards-scroller",
+    "cards-scroller",
+    "columns-quote"
+  ]
+}

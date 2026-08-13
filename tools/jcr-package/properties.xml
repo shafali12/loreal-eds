@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>FileVault Package Metadata</comment>
+    <entry key="name">eds-loreal-content</entry>
+    <entry key="group">com.loreal.eds</entry>
+    <entry key="version">1.0.0</entry>
+    <entry key="description">L'Oréal EDS migrated content: en (homepage), groupe, commitments-and-responsibilities, our-global-brands-portfolio. Generated from Edge Delivery block content.</entry>
+    <entry key="packageType">content</entry>
+    <entry key="requiresRoot">false</entry>
+    <entry key="allowIndexDefinitions">false</entry>
+    <entry key="acHandling">ignore</entry>
+</properties>
