@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "projectType": "xwalk"
+  },
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.loreal.com/en/"
+      ],
+      "representativeUrl": "https://www.loreal.com/en/",
+      "coverageGaps": [],
+      "description": "L'Oréal Groupe corporate homepage with a hero carousel, search box, and a horizontal 'beautiful stories' card scroller within the main content area.",
+      "blocks": [
+        {
+          "name": "carousel-hero",
+          "instances": [
+            ".hero-carousel"
+          ]
+        },
+        {
+          "name": "search-box",
+          "instances": [
+            "#search-box-form"
+          ]
+        },
+        {
+          "name": "cards-scroller",
+          "instances": [
+            "#content > div.container.container--is-maxwidth > div.container--large .scroll-slider"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "group-overview",
+      "urls": [
+        "https://www.loreal.com/en/groupe"
+      ],
+      "representativeUrl": "https://www.loreal.com/en/groupe",
+      "coverageGaps": [],
+      "description": "Group/about overview page: hero stage, intro copy with embedded video, 3-up feature cards, key-figures stats row, and a leadership quote with portrait.",
+      "blocks": [
+        {
+          "name": "hero-stage",
+          "instances": [
+            "#content section.hero.hero--stage"
+          ]
+        },
+        {
+          "name": "embed-video",
+          "instances": [
+            "#content .flowplayer-embed-container"
+          ]
+        },
+        {
+          "name": "cards-feature",
+          "instances": [
+            "#content .card-grid"
+          ]
+        },
+        {
+          "name": "columns-stats",
+          "instances": [
+            "#content .container--large.keycontainer-bg"
+          ]
+        },
+        {
+          "name": "columns-quote",
+          "instances": [
+            "#content .container--large.--margin-large"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "commitments-overview",
+      "urls": [
+        "https://www.loreal.com/en/commitments-and-responsibilities"
+      ],
+      "representativeUrl": "https://www.loreal.com/en/commitments-and-responsibilities",
+      "coverageGaps": [],
+      "description": "Commitments landing page: hero stage, a commitments card scroller, a leadership quote, and a latest-news filtered card scroller.",
+      "blocks": [
+        {
+          "name": "hero-stage",
+          "instances": [
+            "#content section.hero.hero--stage"
+          ]
+        },
+        {
+          "name": "cards-scroller",
+          "instances": [
+            "#content .container--large.--gray .scroll-slider",
+            "#content .container--large.--white .scroll-slider"
+          ]
+        },
+        {
+          "name": "columns-quote",
+          "instances": [
+            "#content blockquote.signature"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "brands-portfolio",
+      "urls": [
+        "https://www.loreal.com/en/our-global-brands-portfolio"
+      ],
+      "representativeUrl": "https://www.loreal.com/en/our-global-brands-portfolio",
+      "coverageGaps": [],
+      "description": "Brand portfolio page: hero stage, intro copy, a filterable brand slider with logo carousel, and a divisions card scroller.",
+      "blocks": [
+        {
+          "name": "hero-stage",
+          "instances": [
+            "#content section.hero.hero--stage"
+          ]
+        },
+        {
+          "name": "carousel-brands",
+          "instances": [
+            "#content section.brand-slider"
+          ]
+        },
+        {
+          "name": "cards-scroller",
+          "instances": [
+            "#content .container--large:nth-of-type(3) .scroll-slider"
+          ]
+        }
+      ]
+    }
+  ]
+}

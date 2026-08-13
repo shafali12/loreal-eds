@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.loreal.com/en/our-global-brands-portfolio",
+  "path": "en/our-global-brands-portfolio",
+  "timestamp": "2026-08-07T07:45:19.275Z",
+  "title": "",
+  "template": "brands-portfolio",
+  "blocks": [
+    "hero-stage",
+    "carousel-brands",
+    "cards-scroller"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.loreal.com/en/",
+  "path": "en",
+  "timestamp": "2026-08-06T12:29:39.207Z",
+  "title": "",
+  "template": "homepage",
+  "blocks": [
+    "carousel-hero",
+    "search-box",
+    "cards-scroller"
+  ]
+}

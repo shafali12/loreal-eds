@@ -1,0 +1,14 @@
+{
+  "type": "xwalk",
+  "sites": {
+    "loreal-eds": {
+      "previewOrg": "shafali12",
+      "previewSite": "loreal-eds",
+      "aemSitePath": "/content/eds-loreal",
+      "aemAssetsFolderPath": "/content/dam/eds-loreal",
+      "aemSiteName": "eds-loreal",
+      "aemSiteTitle": "eds-loreal",
+      "libraryUrl": "https://main--sta-xwalk-boilerplate--aemysites.aem.page/tools/sidekick/library.json"
+    }
+  }
+}

@@ -1,0 +1,821 @@
+{
+  "templates": [
+    {
+      "name": "homepage-landing",
+      "urls": [
+        "https://www.loreal.com/en/",
+        "https://www.loreal.com/en/adria-balkan/",
+        "https://www.loreal.com/en/anz/",
+        "https://www.loreal.com/en/anz/pages/commitments/join-the-refill-movement/",
+        "https://www.loreal.com/en/argentina/",
+        "https://www.loreal.com/en/argentina/pages/grupo/strategy-and-model-ar/",
+        "https://www.loreal.com/en/articles/brands/maybelline-ny-sky-high-mascara/",
+        "https://www.loreal.com/en/articles/brands/ysl-ourika-gardens/",
+        "https://www.loreal.com/en/articles/research-innovation/iccs/",
+        "https://www.loreal.com/en/audiences/suppliers/",
+        "https://www.loreal.com/en/australia/",
+        "https://www.loreal.com/en/australia/news/",
+        "https://www.loreal.com/en/australia/news/commitments/",
+        "https://www.loreal.com/en/australia/pages/group/for-the-people/empowering-communities/",
+        "https://www.loreal.com/en/australia/pages/group/for-the-people/promoting-diversity-and-inclusion/",
+        "https://www.loreal.com/en/austria/",
+        "https://www.loreal.com/en/austria/pages/commitments/de-for-the-planet-2025/",
+        "https://www.loreal.com/en/austria/pages/commitments/de-for-the-planet-2025/steward-the-climate-transition/",
+        "https://www.loreal.com/en/austria/pages/commitments/join-the-refill-movement-en/",
+        "https://www.loreal.com/en/austria/pages/commitments/join-the-refill-movement/",
+        "https://www.loreal.com/en/baltics-hub/",
+        "https://www.loreal.com/en/baltics-hub/simple-page-folder/privacy-policy-baltics-b2b-l-oreal-dermatological-beauty/",
+        "https://www.loreal.com/en/beauty-science-and-technology/beauty-research-and-innovation/our-beauty-science-for-people/",
+        "https://www.loreal.com/en/beauty-science-and-technology/l-oreal-open-innovation/our-digital-and-tech-event/",
+        "https://www.loreal.com/en/belgium/pages/group/privacy-policy-belgium-fr-b2b/",
+        "https://www.loreal.com/en/belgium/pages/group/privacy-policy-belgium-nl-b2b-l-oreal-dermatological-beauty/",
+        "https://www.loreal.com/en/belgium/pages/group/privacy-policy-belgium-nl-b2b/",
+        "https://www.loreal.com/en/belgium/privacy-policy/",
+        "https://www.loreal.com/en/benelux/",
+        "https://www.loreal.com/en/benelux/pages/commitments/join-the-refill-movement/",
+        "https://www.loreal.com/en/brazil/",
+        "https://www.loreal.com/en/brazil/articles/group/",
+        "https://www.loreal.com/en/brazil/news/",
+        "https://www.loreal.com/en/brazil/news/group/",
+        "https://www.loreal.com/en/brazil/pages/compromissos/compromissos-e-responsabilidades/",
+        "https://www.loreal.com/en/brazil/pages/compromissos/join-the-refill-movement/",
+        "https://www.loreal.com/en/brazil/pages/grupo/vida-na-loreal/",
+        "https://www.loreal.com/en/canada/",
+        "https://www.loreal.com/en/canada/news/",
+        "https://www.loreal.com/en/canada/pages/commitments/join-the-refill-movement/",
+        "https://www.loreal.com/en/canada/pages/group/join-the-refill-movement/",
+        "https://www.loreal.com/en/canada/pages/group/our-purpose/diversity-inclusion-cn/",
+        "https://www.loreal.com/en/careers/",
+        "https://www.loreal.com/en/caribe/",
+        "https://www.loreal.com/en/central-america/",
+        "https://www.loreal.com/en/chile/",
+        "https://www.loreal.com/en/chile/pages/commitments/join-the-refill-movement/",
+        "https://www.loreal.com/en/china/",
+        "https://www.loreal.com/en/china/pages/commitments/join-the-refill-movement/",
+        "https://www.loreal.com/en/colombia/",
+        "https://www.loreal.com/en/commitments-and-responsibilities/",
+        "https://www.loreal.com/en/commitments-and-responsibilities/for-our-products/",
+        "https://www.loreal.com/en/commitments-and-responsibilities/for-the-people/promoting-diversity-and-inclusion/",
+        "https://www.loreal.com/en/commitments-and-responsibilities/for-the-people/promoting-diversity-and-inclusion/key-figures/",
+        "https://www.loreal.com/en/cultures-and-heritages/life-at-loreal/",
+        "https://www.loreal.com/en/cultures-and-heritages/our-values-and-mindset/",
+        "https://www.loreal.com/en/cultures-and-heritages/visionaries/",
+        "https://www.loreal.com/en/czech-republic/",
+        "https://www.loreal.com/en/czech-republic/news/",
+        "https://www.loreal.com/en/czech-republic/pages/commitments/2025-for-the-planet/accelerer-la-transition-climatique/",
+        "https://www.loreal.com/en/czech-republic/pages/commitments/join-the-refill-movement/",
+        "https://www.loreal.com/en/czech-republic/pages/group/privacy-policy-b2b-hcp-360-cz-and-sk/",
+        "https://www.loreal.com/en/czech-republic/pages/group/privacy-policy-b2b/",
+        "https://www.loreal.com/en/de-toutes-beautes/",
+        "https://www.loreal.com/en/dermatological-beauty-division/",
+        "https://www.loreal.com/en/egypt/",
+        "https://www.loreal.com/en/egypt/commitments/join-the-refill-movement/",
+        "https://www.loreal.com/en/esg-performance/",
+        "https://www.loreal.com/en/france/",
+        "https://www.loreal.com/en/france/pages/group/for-our-business-partners-france/",
+        "https://www.loreal.com/en/france/pages/group/luxury-of-retail/cgu/",
+        "https://www.loreal.com/en/france/pages/group/privacy-policy-france/",
+        "https://www.loreal.com/en/germany/",
+        "https://www.loreal.com/en/germany/pages/commitments/de-for-the-planet-2025/steward-the-climate-transition/",
+        "https://www.loreal.com/en/germany/pages/commitments/join-the-refill-movement-en/",
+        "https://www.loreal.com/en/greece/"
+      ],
+      "coverageGaps": [],
+      "description": "Corporate/country landing pages: hero carousel, search, and card scroller sections",
+      "blocks": []
+    },
+    {
+      "name": "article-content",
+      "urls": [
+        "https://www.loreal.com/en/adria-balkan/articles/",
+        "https://www.loreal.com/en/adria-balkan/articles/brands/",
+        "https://www.loreal.com/en/adria-balkan/articles/commitments/",
+        "https://www.loreal.com/en/adria-balkan/articles/commitments/fwis/",
+        "https://www.loreal.com/en/adria-balkan/articles/commitments/l-oreal-for-the-future-bh/",
+        "https://www.loreal.com/en/adria-balkan/articles/commitments/originalni-razgovori/",
+        "https://www.loreal.com/en/adria-balkan/articles/group/",
+        "https://www.loreal.com/en/adria-balkan/articles/group/appointment-new-gm-bh/",
+        "https://www.loreal.com/en/adria-balkan/news/",
+        "https://www.loreal.com/en/adria-balkan/news/commitment/",
+        "https://www.loreal.com/en/adria-balkan/news/commitment/water-saver/",
+        "https://www.loreal.com/en/adria-balkan/news/events/",
+        "https://www.loreal.com/en/adria-balkan/news/fondation-l-oreal/",
+        "https://www.loreal.com/en/adria-balkan/news/group/",
+        "https://www.loreal.com/en/adria-balkan/news/group/first-quarter-2021-sales/",
+        "https://www.loreal.com/en/adria-balkan/news/group/gender-equality/",
+        "https://www.loreal.com/en/adria-balkan/news/group/l-oreal-and-prada/",
+        "https://www.loreal.com/en/adria-balkan/news/group/worlds-most-ethical-companies/",
+        "https://www.loreal.com/en/adria-balkan/news/science-technology/",
+        "https://www.loreal.com/en/adria-balkan/pages/group/privacy-policy-b-to-b-bulgaria/",
+        "https://www.loreal.com/en/anz/articles/",
+        "https://www.loreal.com/en/anz/articles/brands/",
+        "https://www.loreal.com/en/anz/news/",
+        "https://www.loreal.com/en/anz/news/brands/",
+        "https://www.loreal.com/en/anz/pages/group/consumer-experience-innovation/",
+        "https://www.loreal.com/en/anz/pages/group/contacts-anz/",
+        "https://www.loreal.com/en/anz/press-releases/brands/",
+        "https://www.loreal.com/en/anz/press-releases/commitment/",
+        "https://www.loreal.com/en/anz/press-releases/events/",
+        "https://www.loreal.com/en/anz/press-releases/finance/",
+        "https://www.loreal.com/en/anz/press-releases/fondation-loreal/",
+        "https://www.loreal.com/en/anz/press-releases/group/",
+        "https://www.loreal.com/en/anz/press-releases/science-technology/",
+        "https://www.loreal.com/en/anz/privacy-policy/",
+        "https://www.loreal.com/en/argentina/pages/compromisos/loreal-for-the-future/drive-circularity/",
+        "https://www.loreal.com/en/argentina/pages/compromisos/loreal-for-the-future/liderar-la-transicion-climatica/",
+        "https://www.loreal.com/en/argentina/pages/grupo/privacy-policy-argentina/",
+        "https://www.loreal.com/en/articles/audiences/",
+        "https://www.loreal.com/en/articles/audiences/a-responsible-and-sustainable-purchasing-policy/",
+        "https://www.loreal.com/en/articles/audiences/inclusive-sourcing-program/",
+        "https://www.loreal.com/en/articles/brands/domaine-de-la-rose/",
+        "https://www.loreal.com/en/articles/brands/garnier-hair-color-services/",
+        "https://www.loreal.com/en/articles/brands/hapta-lancome/",
+        "https://www.loreal.com/en/articles/brands/new-absolue-longevity/",
+        "https://www.loreal.com/en/articles/brands/the-art-and-science-of-fragrance/",
+        "https://www.loreal.com/en/articles/commitments/100-renewable-energy/",
+        "https://www.loreal.com/en/articles/group/10th-edition-one-young-world/",
+        "https://www.loreal.com/en/articles/l-oreal-for-the-future/a-new-tool-to-assess-the-environmental-and-social-impact-of-our-products/",
+        "https://www.loreal.com/en/articles/l-oreal-for-the-future/china-the-suzhou-plants-waste-reduction-campaign/",
+        "https://www.loreal.com/en/articles/l-oreal-for-the-future/plastic-packaging-policy/",
+        "https://www.loreal.com/en/articles/l-oreal-for-the-future/yichang-a-plant-with-carbon-neutrality/",
+        "https://www.loreal.com/en/articles/research-innovation/a-network-that-is-open-to-the-world/",
+        "https://www.loreal.com/en/articles/research-innovation/ifscc/",
+        "https://www.loreal.com/en/articles/research-innovation/melasyl/",
+        "https://www.loreal.com/en/articles/research-innovation/permanent-oxidative-hair-dye/",
+        "https://www.loreal.com/en/articles/research-innovation/uvmune-400/",
+        "https://www.loreal.com/en/articles/science-and-technology/10th-edition-of-one-young-world-the-global-forum-for-young-leaders/",
+        "https://www.loreal.com/en/audiences/investors/",
+        "https://www.loreal.com/en/australia/articles/",
+        "https://www.loreal.com/en/australia/articles/commitments/",
+        "https://www.loreal.com/en/australia/articles/commitments/australia-support-of-uluru-statement/",
+        "https://www.loreal.com/en/australia/news/commitments/2025-loreal-beauty-for-all-scholars/",
+        "https://www.loreal.com/en/australia/news/events/34th-national-banksia-sustainability-awards/",
+        "https://www.loreal.com/en/australia/news/events/loreal-australia-celebrates-all-expressions-of-beauty-at-mi/",
+        "https://www.loreal.com/en/australia/news/events/loreal-groupe-debuts-at-sxsw-sydney-2025/",
+        "https://www.loreal.com/en/australia/news/events/loreal-groupe-sustainable-beauty-bar-new-zealand/",
+        "https://www.loreal.com/en/australia/news/events/notredame-exhibition-melbourne/",
+        "https://www.loreal.com/en/australia/news/events/sisterworks-dandenong-warehousing-program-graduation-ceremon/",
+        "https://www.loreal.com/en/australia/news/fondation-loreal/gunawirra-receives-50000-from-the-loreal-fund-for-women/",
+        "https://www.loreal.com/en/australia/news/human-relations/loreal-anz-announces-majority-female-management-committee/",
+        "https://www.loreal.com/en/australia/news/human-relations/loreal-australia-is-proudly-accredited-by-the-family-friend/",
+        "https://www.loreal.com/en/australia/news/human-relations/loreal-australia-pinnacle-foundation-scholar/",
+        "https://www.loreal.com/en/australia/news/human-relations/loreal-offers-employment-opportunities/",
+        "https://www.loreal.com/en/australia/news/human-relations/progressing-gender-equality-in-the-workplace/",
+        "https://www.loreal.com/en/australia/news/news/2023-lorealunesco-for-women-in-science-fellows/",
+        "https://www.loreal.com/en/australia/pages/group/australia-privacy-policy/",
+        "https://www.loreal.com/en/australia/pages/group/for-the-people/respecting-human-rights/",
+        "https://www.loreal.com/en/australia/pages/group/for-the-people/seniors/",
+        "https://www.loreal.com/en/australia/pages/group/privacy-policy-australia/",
+        "https://www.loreal.com/en/australia/press-releases/",
+        "https://www.loreal.com/en/australia/press-releases/brands/",
+        "https://www.loreal.com/en/australia/press-releases/commitment/",
+        "https://www.loreal.com/en/australia/press-releases/events/",
+        "https://www.loreal.com/en/australia/press-releases/finance/",
+        "https://www.loreal.com/en/australia/press-releases/fondation-loreal/",
+        "https://www.loreal.com/en/australia/press-releases/group/",
+        "https://www.loreal.com/en/australia/press-releases/human-relations/",
+        "https://www.loreal.com/en/australia/press-releases/science-technology/",
+        "https://www.loreal.com/en/australia/static-simple-cards/our-response-to-covid-19-au/",
+        "https://www.loreal.com/en/australia/static-simple-cards/strategy-and-model-au/",
+        "https://www.loreal.com/en/austria/pages/commitments/de-for-the-planet-2025/kreislaufwirtschaft-vorantreiben/",
+        "https://www.loreal.com/en/austria/pages/commitments/de-for-the-planet-2025/soziales-engagement/",
+        "https://www.loreal.com/en/austria/pages/group/personliche-daten/",
+        "https://www.loreal.com/en/austria/pages/group/privacy-policy-austria/",
+        "https://www.loreal.com/en/austria/press-releases/beauty-tech/",
+        "https://www.loreal.com/en/beauty-science-and-technology/beauty-research-and-innovation/",
+        "https://www.loreal.com/en/beauty-science-and-technology/beauty-research-and-innovation/our-scientific-publications/",
+        "https://www.loreal.com/en/beauty-science-and-technology/beauty-tech/",
+        "https://www.loreal.com/en/beauty-science-and-technology/l-oreal-open-innovation/",
+        "https://www.loreal.com/en/beauty-science-and-technology/l-oreal-open-innovation/beauty-tech-atelier/",
+        "https://www.loreal.com/en/beauty-science-and-technology/l-oreal-open-innovation/creating-breakthrough-products-through-collaborative-play/",
+        "https://www.loreal.com/en/belgium/articles/group/",
+        "https://www.loreal.com/en/belgium/news/",
+        "https://www.loreal.com/en/belgium/pages/group/privacy-policy-belgium-nl/",
+        "https://www.loreal.com/en/belgium/press-release/",
+        "https://www.loreal.com/en/belgium/static-simple-cards/our-response-to-covid-19-be/",
+        "https://www.loreal.com/en/belgium/static-simple-cards/strategy-and-model-be/",
+        "https://www.loreal.com/en/benelux/articles/",
+        "https://www.loreal.com/en/benelux/articles/brands/",
+        "https://www.loreal.com/en/benelux/articles/group/fwis-rework-bnl/",
+        "https://www.loreal.com/en/benelux/articles/offices-bnl/hoofddorp-office/",
+        "https://www.loreal.com/en/benelux/articles/offices-bnl/libramont-office/",
+        "https://www.loreal.com/en/benelux/news/",
+        "https://www.loreal.com/en/benelux/pages/commitments/disabilities/",
+        "https://www.loreal.com/en/benelux/pages/commitments/for-the-people/",
+        "https://www.loreal.com/en/benelux/pages/commitments/for-the-youth/",
+        "https://www.loreal.com/en/benelux/pages/commitments/seniors/",
+        "https://www.loreal.com/en/benelux/pages/group/benelux-our-socio-economic-impact-2025/",
+        "https://www.loreal.com/en/benelux/pages/group/privacy-policy-benelux-b2b-hcp-360-nl/",
+        "https://www.loreal.com/en/benelux/pages/group/privacy-policy-benelux-fr/",
+        "https://www.loreal.com/en/benelux/pages/group/privacy-policy-benelux-nl/",
+        "https://www.loreal.com/en/benelux/press-release/",
+        "https://www.loreal.com/en/benelux/static-simple-cards/career-opportunities-bnl/",
+        "https://www.loreal.com/en/benelux/static-simple-cards/join-our-team-bnl/",
+        "https://www.loreal.com/en/benelux/static-simple-cards/our-response-to-covid-19-bnl/",
+        "https://www.loreal.com/en/benelux/static-simple-cards/sense-of-purpose/",
+        "https://www.loreal.com/en/benelux/static-simple-cards/strategy-and-model-bnl/",
+        "https://www.loreal.com/en/brands/biolage-healthy-hair/",
+        "https://www.loreal.com/en/brands/biolage-routine-quizz/",
+        "https://www.loreal.com/en/brands/kiehls-blog/collagen-banking/",
+        "https://www.loreal.com/en/brands/kiehls-blog/does-sunscreen-expire/",
+        "https://www.loreal.com/en/brands/kiehls-blog/glycerin-benefits-for-skin/",
+        "https://www.loreal.com/en/brands/kiehls-blog/how-to-treat-dry-hands/",
+        "https://www.loreal.com/en/brands/kiehls-blog/what-are-emulsions/",
+        "https://www.loreal.com/en/brazil/articles/commitments/",
+        "https://www.loreal.com/en/brazil/articles/group/aceleracao-digital-6-marcos-do-time-de-formacao-da-loreal-cosmetica-ativa/",
+        "https://www.loreal.com/en/brazil/news/events/",
+        "https://www.loreal.com/en/brazil/news/finance/",
+        "https://www.loreal.com/en/brazil/news/marcas/kerastasecelebraomesdoorgulholgbtqiapmaisemacaoespecialjuntoaredesdamare/",
+        "https://www.loreal.com/en/brazil/news/responsabilidade-corporativa/lorealbrasilpromoveeventosobreprivacidadededadosdaiapp/",
+        "https://www.loreal.com/en/brazil/pages/compromissos/loreal-for-the-future/drive-circularity/",
+        "https://www.loreal.com/en/brazil/pages/compromissos/loreal-for-the-future/steward-the-climate-transition/",
+        "https://www.loreal.com/en/brazil/pages/compromissos/seniors-br/",
+        "https://www.loreal.com/en/brazil/pages/grupo/terms-conditions-policies/privacy-policy-br/",
+        "https://www.loreal.com/en/brazil/pages/grupo/terms-conditions-policies/privacy-policy-brazil/",
+        "https://www.loreal.com/en/brazil/pages/grupo/terms-conditions-policies/privacy-policy-btob-br/",
+        "https://www.loreal.com/en/brazil/pages/grupo/terms-conditions-policies/term-of-use-br/",
+        "https://www.loreal.com/en/brazil/press-releases/",
+        "https://www.loreal.com/en/brazil/static-simple-cards/como-escolha-para-a-sua-carreira-home/",
+        "https://www.loreal.com/en/canada/articles/",
+        "https://www.loreal.com/en/canada/articles/commitments/",
+        "https://www.loreal.com/en/canada/articles/commitments/a-local-solution-to-a-global-problem/",
+        "https://www.loreal.com/en/canada/articles/commitments/l-oreal-canada-offers-a-five-year-internship-to-eight-young-autistic-adults/",
+        "https://www.loreal.com/en/canada/articles/commitments/our-alternative-methods-to-animal-testing/",
+        "https://www.loreal.com/en/canada/articles/group/",
+        "https://www.loreal.com/en/canada/articles/group/answerable-dailykarma-and-trufan-begin--a-collaboration-pro/",
+        "https://www.loreal.com/en/canada/articles/group/loreal-canada-at-a-glance/",
+        "https://www.loreal.com/en/canada/articles/group/loreal-canada-inaugurates-its-newly-expanded-distribution-center/",
+        "https://www.loreal.com/en/canada/articles/group/loreal-canada-launches-a-canada-wide-coronavirus-solidarity-program/",
+        "https://www.loreal.com/en/canada/news/brands/",
+        "https://www.loreal.com/en/canada/news/brands/a-13th-citizens-day-for-a-better-world/",
+        "https://www.loreal.com/en/canada/news/brands/a-canadian-scientist-recognized-as-a-lorealunesco-for-wome/",
+        "https://www.loreal.com/en/canada/news/brands/invitation-atelier-protection-des-pollinisateurs/",
+        "https://www.loreal.com/en/canada/news/brands/loreal-canada-is-one-of-the-best-places-to-work-in-montreal/",
+        "https://www.loreal.com/en/canada/news/brands/loreal-canada-launches-a-business-data-lab/",
+        "https://www.loreal.com/en/canada/news/brands/loreal-canada-strengthens-its-commitment-to-sustainability/",
+        "https://www.loreal.com/en/canada/news/commitments/for-the-first-time-loreal-canada-has-achieved-edgeplus-cer/",
+        "https://www.loreal.com/en/canada/news/commitments/loreal-canada-employees-volunteer-more-than-4240-hours-to/",
+        "https://www.loreal.com/en/canada/news/commitments/loreal-canada-launches-the-power-of-the-collective--hair/",
+        "https://www.loreal.com/en/canada/news/commitments/loreal-canada-marks-national-indigenous-month/",
+        "https://www.loreal.com/en/canada/news/commitments/loreal-does-not-test-any-of-its-products-or-any-of-its-ingr/",
+        "https://www.loreal.com/en/canada/news/group/after-seven-successful-years-at-loreal-canada-frank-kollm/",
+        "https://www.loreal.com/en/canada/news/group/loreal-canada-and-garnier-canada-donate-hand-sanitizing-gel/",
+        "https://www.loreal.com/en/canada/news/group/loreal-canada-awards-5-lorealunesco-for-women-in-science/",
+        "https://www.loreal.com/en/canada/news/group/loreal-canada-inaugurates-its-newly-expanded-distribution-center/",
+        "https://www.loreal.com/en/canada/news/group/loreal-canada-receives-the-best-french-success-in-canada-aw/",
+        "https://www.loreal.com/en/canada/news/group/loreal-partners-with-investment-firms/",
+        "https://www.loreal.com/en/canada/news/news/115-years-is-quite-the-milestone-and-a-cause-for-celebration/",
+        "https://www.loreal.com/en/canada/pages/group/terms-conditions-policies/privacy-policy-canada-en/",
+        "https://www.loreal.com/en/canada/pages/group/terms-conditions-policies/term-of-use-ca/",
+        "https://www.loreal.com/en/carbios/",
+        "https://www.loreal.com/en/caribe/articles/",
+        "https://www.loreal.com/en/caribe/articles/grupo/",
+        "https://www.loreal.com/en/caribe/articles/grupo/45-women-that-move-the-caribbean/",
+        "https://www.loreal.com/en/caribe/articles/grupo/puerto-rican-scientist-awarded-by-loreal-for-women-in-science-program/",
+        "https://www.loreal.com/en/central-america/articles/",
+        "https://www.loreal.com/en/central-america/pages/group/privacy-policy-panama/",
+        "https://www.loreal.com/en/central-america/pages/group/privacy-policy-venezuela/",
+        "https://www.loreal.com/en/central-america/press-release/",
+        "https://www.loreal.com/en/chile/news/",
+        "https://www.loreal.com/en/chile/news/grupo/",
+        "https://www.loreal.com/en/chile/news/grupo/se-abren-las-postulaciones-al-premio-for-women-in-science-20/",
+        "https://www.loreal.com/en/chile/pages/commitments/for-women-in-science/",
+        "https://www.loreal.com/en/chile/pages/commitments/loreal-for-the-future/steward-the-climate-transition/",
+        "https://www.loreal.com/en/chile/press-release/brands/",
+        "https://www.loreal.com/en/chile/static-simple-cards/stop-th-drop-out/",
+        "https://www.loreal.com/en/china/articles/",
+        "https://www.loreal.com/en/china/articles/brands/",
+        "https://www.loreal.com/en/china/articles/commitments/china-becomes-loreals-first-market-realizing-carbon-neutral/",
+        "https://www.loreal.com/en/china/articles/commitments/loreal-unveils-its-bold-sustainability-targets-for-2030/",
+        "https://www.loreal.com/en/china/articles/group/loreal-chinas-growth-hits-15year-high/",
+        "https://www.loreal.com/en/china/articles/group/loreal-will-participate-for-the-first-time-as-an-ecosystem/",
+        "https://www.loreal.com/en/china/news/",
+        "https://www.loreal.com/en/china/news/events/",
+        "https://www.loreal.com/en/china/news/finance/",
+        "https://www.loreal.com/en/china/news/fondation-loreal/",
+        "https://www.loreal.com/en/china/news/human-relations/",
+        "https://www.loreal.com/en/china/news/science-technology/",
+        "https://www.loreal.com/en/china/pages/group/strategy-and-model-zh/",
+        "https://www.loreal.com/en/china/pages/group/terms-conditions-policies/privacy-policy-btob-zh/",
+        "https://www.loreal.com/en/china/pages/group/terms-conditions-policies/privacy-policy-chn-2022/",
+        "https://www.loreal.com/en/china/pages/group/terms-conditions-policies/privacy-policy-zh/",
+        "https://www.loreal.com/en/china/pages/group/terms-conditions-policies/term-of-use/",
+        "https://www.loreal.com/en/china/press-releases/",
+        "https://www.loreal.com/en/china/press-releases/brands/",
+        "https://www.loreal.com/en/china/press-releases/commitment/",
+        "https://www.loreal.com/en/china/press-releases/events/",
+        "https://www.loreal.com/en/china/press-releases/finance/",
+        "https://www.loreal.com/en/china/press-releases/fondation-loreal/",
+        "https://www.loreal.com/en/china/press-releases/group/",
+        "https://www.loreal.com/en/china/press-releases/human-relations/",
+        "https://www.loreal.com/en/china/press-releases/science-technology/",
+        "https://www.loreal.com/en/colombia/pages/commitments/l-oreal-for-the-future-cl-co/",
+        "https://www.loreal.com/en/colombia/pages/group/privacy-policy-colombia/",
+        "https://www.loreal.com/en/colorsonic/",
+        "https://www.loreal.com/en/commitment/european-women-on-boards-gender-diversity-index/",
+        "https://www.loreal.com/en/commitment/external-recognition-ungc-card/",
+        "https://www.loreal.com/en/commitment/other-side/",
+        "https://www.loreal.com/en/commitment/our-ingredients/",
+        "https://www.loreal.com/en/commitment/sbwa-press-kit/",
+        "https://www.loreal.com/en/commitment/sbwa-publications/",
+        "https://www.loreal.com/en/commitment/sbwa-videos/",
+        "https://www.loreal.com/en/commitments-and-responsibilities/for-our-products/for-beauty-with-no-animal-testing/",
+        "https://www.loreal.com/en/commitments-and-responsibilities/for-our-products/for-beauty-with-no-animal-testing/milestones-in-the-safety-assessment-without-animal/",
+        "https://www.loreal.com/en/commitments-and-responsibilities/for-our-products/our-product-eco-design-tool/",
+        "https://www.loreal.com/en/czech-republic/news/commitments/",
+        "https://www.loreal.com/en/czech-republic/news/commitments/citizenday25/",
+        "https://www.loreal.com/en/czech-republic/news/commitments/for-women-in-science-festival/",
+        "https://www.loreal.com/en/czech-republic/news/commitments/fwis-cz/",
+        "https://www.loreal.com/en/czech-republic/news/commitments/fwis-sk/",
+        "https://www.loreal.com/en/czech-republic/news/commitments/lp-head-up/",
+        "https://www.loreal.com/en/czech-republic/news/commitments/pro-value-sk/",
+        "https://www.loreal.com/en/czech-republic/news/skupina/",
+        "https://www.loreal.com/en/czech-republic/news/veda/beauty-tech-na-ces-2026/",
+        "https://www.loreal.com/en/czech-republic/news/veda/ces2022/",
+        "https://www.loreal.com/en/czech-republic/news/veda/colorsonic-times-2022/",
+        "https://www.loreal.com/en/czech-republic/news/veda/fwis-cz-2023/",
+        "https://www.loreal.com/en/czech-republic/pages/commitments/2025-for-the-planet/driving-circularity/",
+        "https://www.loreal.com/en/czech-republic/pages/commitments/seniors/",
+        "https://www.loreal.com/en/czech-republic/pages/group/our-purpose/about-solidarity-sourcing-cz/",
+        "https://www.loreal.com/en/czech-republic/pages/group/our-purpose/for-beauty-with-no-animal-testing/milestones-in-the-safety-assessment-without-animal/",
+        "https://www.loreal.com/en/czech-republic/pages/group/our-purpose/women-cause-czz/",
+        "https://www.loreal.com/en/czech-republic/pages/group/privacy-policy-cz-slovakia/",
+        "https://www.loreal.com/en/czech-republic/pages/group/privacy-policy-cz/",
+        "https://www.loreal.com/en/czech-republic/press-releases/",
+        "https://www.loreal.com/en/czech-republic/press-releases/beauty-tech/",
+        "https://www.loreal.com/en/czech-republic/press-releases/commitment/",
+        "https://www.loreal.com/en/czech-republic/press-releases/group/",
+        "https://www.loreal.com/en/division/decleor/discover-the-power-of-essential-oils/",
+        "https://www.loreal.com/en/division/decleor/neroli-bigarade-hydratation-powerhouse/",
+        "https://www.loreal.com/en/division/loreal-professionnel/brand-loreal-professionnel/",
+        "https://www.loreal.com/en/division/loreal-professionnel/my-hair-id/",
+        "https://www.loreal.com/en/division/maybelline/brand-maybelline/",
+        "https://www.loreal.com/en/egypt/articles/",
+        "https://www.loreal.com/en/employee-human-rights-policy/",
+        "https://www.loreal.com/en/essentiality-of-beauty/",
+        "https://www.loreal.com/en/europes-most-innovative-company/",
+        "https://www.loreal.com/en/europes-most-innovative-company/communications-innovation/",
+        "https://www.loreal.com/en/europes-most-innovative-company/scientific-innovation/",
+        "https://www.loreal.com/en/europes-most-innovative-company/social-innovation/",
+        "https://www.loreal.com/en/europes-most-innovative-company/sustainability-innovation/",
+        "https://www.loreal.com/en/finance/2020-annual-report/",
+        "https://www.loreal.com/en/foundation/foundation-page/",
+        "https://www.loreal.com/en/france/pages/group/luxury-of-retail/",
+        "https://www.loreal.com/en/france/pages/group/policy-privacy-btob/",
+        "https://www.loreal.com/en/france/pages/group/privacy-policy-btoc/",
+        "https://www.loreal.com/en/germany/pages/commitments/de-for-the-planet-2025/driving-circularity/",
+        "https://www.loreal.com/en/germany/pages/commitments/for-the-people-de/seniors-de/",
+        "https://www.loreal.com/en/germany/pages/group/our-purpose/about-solidarity-sourcing-de/",
+        "https://www.loreal.com/en/germany/pages/group/privacy-policy-de/",
+        "https://www.loreal.com/en/germany/pages/group/privacy-policy-germany/",
+        "https://www.loreal.com/en/greece/articles/",
+        "https://www.loreal.com/en/greece/articles/group/",
+        "https://www.loreal.com/en/greece/articles/group/for-women-in-science-2021/",
+        "https://www.loreal.com/en/greece/articles/group/fwis-greece/",
+        "https://www.loreal.com/en/greece/articles/group/general-manager-greece/",
+        "https://www.loreal.com/en/greece/articles/group/greece-top-employer-2020/",
+        "https://www.loreal.com/en/greece/articles/group/solidarity-program/",
+        "https://www.loreal.com/en/greece/articles/science-and-technology/greece-loreal-and-albea-announce-the-development-of-a-breakthrough-innovation/",
+        "https://www.loreal.com/en/greece/articles/science-and-technology/greece-loreal-takes-another-step-into-beauty-tech-at-ces-2020-with-introduction-of-perso/",
+        "https://www.loreal.com/en/greece/news/",
+        "https://www.loreal.com/en/greece/news/brands/",
+        "https://www.loreal.com/en/greece/news/news/fourth-australian-fellowship-added-to-lorealunesco-for-women-in-science-program/",
+        "https://www.loreal.com/en/greece/news/news/loreal-australia-announces-majority-female-management-committee/",
+        "https://www.loreal.com/en/greece/news/news/loreal-australias-commitment-to-gender-equality-at-the-workplace-confirmed-through-the-edge-move-cer/",
+        "https://www.loreal.com/en/greece/news/news/parallel-imports-dontriskit/",
+        "https://www.loreal.com/en/greece/news/news/sustainability-remains-the-1-priority/",
+        "https://www.loreal.com/en/greece/press-releases/"
+      ],
+      "coverageGaps": [],
+      "description": "Standard article/news content page with heading, body copy and media",
+      "blocks": []
+    },
+    {
+      "name": "privacy-policy",
+      "urls": [
+        "https://www.loreal.com/en/adria-balkan/bulgaria-privacy-policy/",
+        "https://www.loreal.com/en/adria-balkan/croatia-privacy-policy/",
+        "https://www.loreal.com/en/adria-balkan/serbia-privacy-policy/",
+        "https://www.loreal.com/en/adria-balkan/slovenia-privacy-policy/",
+        "https://www.loreal.com/en/baltics-hub/estonia-privacy-policy/",
+        "https://www.loreal.com/en/baltics-hub/latvia-privacy-policy/",
+        "https://www.loreal.com/en/baltics-hub/lithuania-privacy-policy/",
+        "https://www.loreal.com/en/benelux/privacy-policy/",
+        "https://www.loreal.com/en/brazil/news/group/carreira-como-fazer-a-gestao-e-a-priorizacao-de-projetos/",
+        "https://www.loreal.com/en/brazil/news/responsabilidade-corporativa/lorealbrasilreunefornecedoresparaworkshopsemproldasustentabilidadeediversidade/",
+        "https://www.loreal.com/en/czech-republic/privacy-policy/",
+        "https://www.loreal.com/en/france/france-privacy-policy/"
+      ],
+      "coverageGaps": [],
+      "description": "Long-form legal/privacy policy page with dense text sections",
+      "blocks": []
+    },
+    {
+      "name": "press-release-listing",
+      "urls": [
+        "https://www.loreal.com/en/anz/press-releases/",
+        "https://www.loreal.com/en/anz/press-releases/human-relations/"
+      ],
+      "coverageGaps": [],
+      "description": "Listing page of press-release cards",
+      "blocks": []
+    },
+    {
+      "name": "press-release-detail",
+      "urls": [
+        "https://www.loreal.com/en/anz/press-releases/human-relations/anz-female-leaders/",
+        "https://www.loreal.com/en/anz/press-releases/human-relations/female-leaders/",
+        "https://www.loreal.com/en/chile/press-release/group/premiacion-for-women-in-science-2025/",
+        "https://www.loreal.com/en/chile/press-release/group/premiacion/",
+        "https://www.loreal.com/en/chile/press-release/group/stand-up-loreal-paris-lleva-capacitacion-masiva-contra-el-acoso-al-estadio-monumental/",
+        "https://www.loreal.com/en/chile/press-release/group/ultimos-dias-para-postular-a-brandstorm-el-concurso-global-de-loreal-groupe/"
+      ],
+      "coverageGaps": [],
+      "description": "Press-release detail page with title, date and body content",
+      "blocks": []
+    },
+    {
+      "name": "privacy-policy-compact",
+      "urls": [
+        "https://www.loreal.com/en/argentina/privacy-policy/",
+        "https://www.loreal.com/en/australia/privacy-policy/",
+        "https://www.loreal.com/en/austria/privacy-policy/",
+        "https://www.loreal.com/en/brazil/pages/grupo/terms-conditions-policies/privacy-policy/",
+        "https://www.loreal.com/en/canada/pages/group/terms-conditions-policies/privacy-policy/",
+        "https://www.loreal.com/en/central-america/privacy-policy/",
+        "https://www.loreal.com/en/central-america/venezuela-privacy-policy/",
+        "https://www.loreal.com/en/chile/pages/group/terms-conditions-policies/privacy-policy/",
+        "https://www.loreal.com/en/colombia/privacy-policy/",
+        "https://www.loreal.com/en/germany/privacy-policy/",
+        "https://www.loreal.com/en/greece/privacy-policy/"
+      ],
+      "coverageGaps": [],
+      "description": "Compact privacy/legal page variant with simpler text layout",
+      "blocks": []
+    },
+    {
+      "name": "article-qa",
+      "urls": [
+        "https://www.loreal.com/en/articles/audiences/inclusive-sourcing-q-and-a/"
+      ],
+      "coverageGaps": [],
+      "description": "Q&A style article layout with alternating question/answer blocks",
+      "blocks": []
+    },
+    {
+      "name": "brand-article",
+      "urls": [
+        "https://www.loreal.com/en/articles/brands/loreal-professionnel/",
+        "https://www.loreal.com/en/brazil/pages/compromissos/loreal-for-the-future/",
+        "https://www.loreal.com/en/chile/pages/commitments/loreal-for-the-future/",
+        "https://www.loreal.com/en/commitments-and-responsibilities/for-our-products/product-quality-and-safety/",
+        "https://www.loreal.com/en/commitments-and-responsibilities/for-the-people/disabilities/",
+        "https://www.loreal.com/en/commitments-and-responsibilities/for-the-people/for-the-youth/",
+        "https://www.loreal.com/en/commitments-and-responsibilities/for-the-people/respecting-human-rights/",
+        "https://www.loreal.com/en/commitments-and-responsibilities/for-the-people/seniors/",
+        "https://www.loreal.com/en/commitments-and-responsibilities/for-the-people/women-cause/",
+        "https://www.loreal.com/en/commitments-and-responsibilities/for-the-planet/accelerator/",
+        "https://www.loreal.com/en/commitments-and-responsibilities/for-the-planet/safeguard-nature/",
+        "https://www.loreal.com/en/commitments-and-responsibilities/for-the-planet/support-communities/"
+      ],
+      "coverageGaps": [],
+      "description": "Brand-focused article page with hero image and rich content",
+      "blocks": []
+    },
+    {
+      "name": "article-longform",
+      "urls": [
+        "https://www.loreal.com/en/articles/l-oreal-for-the-future/assessing-suppliers-csr-performance/"
+      ],
+      "coverageGaps": [],
+      "description": "Long-form article with multiple stacked content sections",
+      "blocks": []
+    },
+    {
+      "name": "news-article",
+      "urls": [
+        "https://www.loreal.com/en/australia/news/fondation-loreal/2023-loreal-beauty-for-all-scholars/",
+        "https://www.loreal.com/en/australia/pages/group/for-the-people/",
+        "https://www.loreal.com/en/australia/pages/group/for-the-people/disabilities/",
+        "https://www.loreal.com/en/australia/pages/group/for-the-people/for-the-youth/",
+        "https://www.loreal.com/en/beauty-science-and-technology/",
+        "https://www.loreal.com/en/brazil/pages/compromissos/disabilities-br/",
+        "https://www.loreal.com/en/brazil/pages/compromissos/for-the-people-br/",
+        "https://www.loreal.com/en/brazil/pages/compromissos/for-the-youth-br/",
+        "https://www.loreal.com/en/canada/pages/group/our-socio-economic-impact/",
+        "https://www.loreal.com/en/commitments-and-responsibilities/for-the-people/",
+        "https://www.loreal.com/en/czech-republic/news/commitments/fwis-cz-24/",
+        "https://www.loreal.com/en/czech-republic/pages/commitments/disabilities/",
+        "https://www.loreal.com/en/czech-republic/pages/commitments/for-the-people/",
+        "https://www.loreal.com/en/czech-republic/pages/commitments/for-the-youth/",
+        "https://www.loreal.com/en/germany/pages/commitments/for-the-people-de/",
+        "https://www.loreal.com/en/germany/pages/commitments/for-the-people-de/disabilities-de/",
+        "https://www.loreal.com/en/germany/pages/commitments/for-the-people-de/for-the-youth-de/",
+        "https://www.loreal.com/en/greece/pages/commitments/for-the-people-gr/",
+        "https://www.loreal.com/en/greece/pages/commitments/for-the-people-gr/disabilities/",
+        "https://www.loreal.com/en/greece/pages/commitments/for-the-people-gr/for-the-youth-template/"
+      ],
+      "coverageGaps": [],
+      "description": "News article detail page with hero, byline and body",
+      "blocks": []
+    },
+    {
+      "name": "key-figures",
+      "urls": [
+        "https://www.loreal.com/en/australia/pages/group/for-the-people/promoting-diversity-and-inclusion/key-figures/"
+      ],
+      "coverageGaps": [],
+      "description": "Key-figures / statistics page with number callout blocks",
+      "blocks": []
+    },
+    {
+      "name": "join-our-team-cards-au",
+      "urls": [
+        "https://www.loreal.com/en/australia/static-simple-cards/join-our-team/"
+      ],
+      "coverageGaps": [],
+      "description": "Simple card grid 'join our team' recruitment page (Australia)",
+      "blocks": []
+    },
+    {
+      "name": "scientific-publication",
+      "urls": [
+        "https://www.loreal.com/en/beauty-science-and-technology/beauty-research-and-innovation/our-scientific-publications/skin/"
+      ],
+      "coverageGaps": [],
+      "description": "Scientific publication page with structured references and abstract",
+      "blocks": []
+    },
+    {
+      "name": "country-landing",
+      "urls": [
+        "https://www.loreal.com/en/belgium/",
+        "https://www.loreal.com/en/canada/pages/group/our-purpose/innovating-through-science-cn/",
+        "https://www.loreal.com/en/czech-republic/pages/group/our-purpose/beauty-tech-cz/"
+      ],
+      "coverageGaps": [],
+      "description": "Country landing page variant with intro and section links",
+      "blocks": []
+    },
+    {
+      "name": "article-feature",
+      "urls": [
+        "https://www.loreal.com/en/benelux/articles/group/for-women-in-science-bnl/",
+        "https://www.loreal.com/en/chile/news/commitments/women-for-science/"
+      ],
+      "coverageGaps": [],
+      "description": "Feature article with large hero and columned content",
+      "blocks": []
+    },
+    {
+      "name": "commitment-page",
+      "urls": [
+        "https://www.loreal.com/en/benelux/pages/commitments/inside-our-products-bnl/"
+      ],
+      "coverageGaps": [],
+      "description": "Commitment / sustainability content page with mixed media sections",
+      "blocks": []
+    },
+    {
+      "name": "brandstorm-landing",
+      "urls": [
+        "https://www.loreal.com/en/brandstorm/"
+      ],
+      "coverageGaps": [],
+      "description": "Standalone campaign landing page (Brandstorm)",
+      "blocks": []
+    },
+    {
+      "name": "article-listing",
+      "urls": [
+        "https://www.loreal.com/en/brazil/articles/brands/"
+      ],
+      "coverageGaps": [],
+      "description": "Article index/listing page with card grid",
+      "blocks": []
+    },
+    {
+      "name": "news-detail",
+      "urls": [
+        "https://www.loreal.com/en/canada/news/commitments/loreal-canada-on-tva/"
+      ],
+      "coverageGaps": [],
+      "description": "News detail page with hero image and body copy",
+      "blocks": []
+    },
+    {
+      "name": "purpose-page",
+      "urls": [
+        "https://www.loreal.com/en/canada/pages/group/our-purpose/"
+      ],
+      "coverageGaps": [],
+      "description": "Purpose / about content page with narrative sections",
+      "blocks": []
+    },
+    {
+      "name": "feature-page",
+      "urls": [
+        "https://www.loreal.com/en/canada/pages/group/our-purpose/beauty-tech-cn/"
+      ],
+      "coverageGaps": [],
+      "description": "Feature content page with hero and stacked media blocks",
+      "blocks": []
+    },
+    {
+      "name": "careers-page",
+      "urls": [
+        "https://www.loreal.com/en/careers/limitless-opportunities-for-you/",
+        "https://www.loreal.com/en/commitments-and-responsibilities/for-our-products/beauty-full-of-science/",
+        "https://www.loreal.com/en/commitments-and-responsibilities/for-the-people/empowering-communities/",
+        "https://www.loreal.com/en/commitments-and-responsibilities/for-the-planet/",
+        "https://www.loreal.com/en/commitments-and-responsibilities/for-the-planet/driving-circularity/",
+        "https://www.loreal.com/en/commitments-and-responsibilities/for-the-planet/investing-for-the-future/",
+        "https://www.loreal.com/en/commitments-and-responsibilities/for-the-planet/steward-the-climate-transition/",
+        "https://www.loreal.com/en/czech-republic/pages/commitments/2025-for-the-planet/",
+        "https://www.loreal.com/en/germany/pages/commitments/de-for-the-planet-2025/"
+      ],
+      "coverageGaps": [],
+      "description": "Careers landing page with hero and opportunity sections",
+      "blocks": []
+    },
+    {
+      "name": "news-listing",
+      "urls": [
+        "https://www.loreal.com/en/chile/news/commitments/",
+        "https://www.loreal.com/en/greece/articles/science-and-technology/",
+        "https://www.loreal.com/en/greece/articles/science-and-technology/innovation/"
+      ],
+      "coverageGaps": [],
+      "description": "News listing page with filterable card grid",
+      "blocks": []
+    },
+    {
+      "name": "news-category-listing",
+      "urls": [
+        "https://www.loreal.com/en/chile/news/science-and-technology/"
+      ],
+      "coverageGaps": [],
+      "description": "News category listing variant with card grid",
+      "blocks": []
+    },
+    {
+      "name": "commitment-detail",
+      "urls": [
+        "https://www.loreal.com/en/chile/pages/commitments/loreal-for-the-future/drive-circularity/"
+      ],
+      "coverageGaps": [],
+      "description": "Commitment detail page with hero and content sections",
+      "blocks": []
+    },
+    {
+      "name": "join-our-team-cards-cl",
+      "urls": [
+        "https://www.loreal.com/en/chile/static-simple-cards/join-our-team/"
+      ],
+      "coverageGaps": [],
+      "description": "Simple card grid 'join our team' recruitment page (Chile)",
+      "blocks": []
+    },
+    {
+      "name": "innovation-article",
+      "urls": [
+        "https://www.loreal.com/en/china/articles/innovation/fifteen-years-of-pioneering-scientific-research-a-new-enlightened-era-for-cosmetics-innovation/"
+      ],
+      "coverageGaps": [],
+      "description": "Innovation article with hero and long-form body",
+      "blocks": []
+    },
+    {
+      "name": "innovation-article-news",
+      "urls": [
+        "https://www.loreal.com/en/china/articles/innovation/loreal-china-confirms-appearance-at-third-ciie/"
+      ],
+      "coverageGaps": [],
+      "description": "Innovation news article variant with hero and body",
+      "blocks": []
+    },
+    {
+      "name": "innovation-article-press",
+      "urls": [
+        "https://www.loreal.com/en/china/articles/innovation/loreal-china-wins-alibabas-top-award-for-digital-transformation/"
+      ],
+      "coverageGaps": [],
+      "description": "Innovation press article variant with hero and body",
+      "blocks": []
+    },
+    {
+      "name": "join-our-team-cards-cn",
+      "urls": [
+        "https://www.loreal.com/en/china/static-simple-cards/join-our-team/"
+      ],
+      "coverageGaps": [],
+      "description": "Simple card grid 'join our team' recruitment page (China)",
+      "blocks": []
+    },
+    {
+      "name": "join-our-team-cards-co",
+      "urls": [
+        "https://www.loreal.com/en/colombia/static-simple-cards/join-our-team/"
+      ],
+      "coverageGaps": [],
+      "description": "Simple card grid 'join our team' recruitment page (Colombia)",
+      "blocks": []
+    },
+    {
+      "name": "policies-page",
+      "urls": [
+        "https://www.loreal.com/en/commitments-and-responsibilities/for-the-planet/our-policies/"
+      ],
+      "coverageGaps": [],
+      "description": "Policies overview page with linked document sections",
+      "blocks": []
+    },
+    {
+      "name": "brand-profile",
+      "urls": [
+        "https://www.loreal.com/en/consumer-products-division/3ce/",
+        "https://www.loreal.com/en/cultures-and-heritages/l-oreal-history/",
+        "https://www.loreal.com/en/dermatological-beauty-division/cerave/",
+        "https://www.loreal.com/en/dermatological-beauty-division/la-roche-posay/",
+        "https://www.loreal.com/en/dermatological-beauty-division/skinbetter-science/",
+        "https://www.loreal.com/en/dermatological-beauty-division/skinceuticals/",
+        "https://www.loreal.com/en/dermatological-beauty-division/vichy/",
+        "https://www.loreal.com/en/france/pages/group/local-management/"
+      ],
+      "coverageGaps": [],
+      "description": "Brand profile page with brand hero and description blocks",
+      "blocks": []
+    },
+    {
+      "name": "visionary-profile",
+      "urls": [
+        "https://www.loreal.com/en/cultures-and-heritages/visionaries/visionaries-armand-petitjean/",
+        "https://www.loreal.com/en/cultures-and-heritages/visionaries/visionaries-eugene-schueller/",
+        "https://www.loreal.com/en/cultures-and-heritages/visionaries/visionaries-jamie-kern-lima/",
+        "https://www.loreal.com/en/cultures-and-heritages/visionaries/visionaries-jeanine-marissal/",
+        "https://www.loreal.com/en/cultures-and-heritages/visionaries/visionaries-john-kiehl-aaron-morse-irving-morse/",
+        "https://www.loreal.com/en/cultures-and-heritages/visionaries/visionaries-shu-uemura/"
+      ],
+      "coverageGaps": [],
+      "description": "Profile/biography page with portrait hero and narrative content",
+      "blocks": []
+    },
+    {
+      "name": "news-listing-cz",
+      "urls": [
+        "https://www.loreal.com/en/czech-republic/news/veda/"
+      ],
+      "coverageGaps": [],
+      "description": "News listing variant (Czech) with card grid",
+      "blocks": []
+    },
+    {
+      "name": "careers-content",
+      "urls": [
+        "https://www.loreal.com/en/czech-republic/pages/group/our-purpose/careers-cz/"
+      ],
+      "coverageGaps": [],
+      "description": "Careers content page with narrative and card sections",
+      "blocks": []
+    },
+    {
+      "name": "join-our-team-cards-cz",
+      "urls": [
+        "https://www.loreal.com/en/czech-republic/static-simple-cards/join-our-team/"
+      ],
+      "coverageGaps": [],
+      "description": "Simple card grid 'join our team' recruitment page (Czech Republic)",
+      "blocks": []
+    },
+    {
+      "name": "division-feature",
+      "urls": [
+        "https://www.loreal.com/en/division/loreal-professionnel/always-elevating-the-profession/",
+        "https://www.loreal.com/en/division/loreal-professionnel/discover-our-latest--innovations-lp/",
+        "https://www.loreal.com/en/division/loreal-professionnel/head-up-simple-page/",
+        "https://www.loreal.com/en/division/loreal-professionnel/we-act/"
+      ],
+      "coverageGaps": [],
+      "description": "Division feature page with hero and content sections",
+      "blocks": []
+    },
+    {
+      "name": "innovation-feature",
+      "urls": [
+        "https://www.loreal.com/en/europes-most-innovative-company/marketing-innovation/"
+      ],
+      "coverageGaps": [],
+      "description": "Innovation feature page with hero and stacked sections",
+      "blocks": []
+    },
+    {
+      "name": "join-our-team-cards-gr",
+      "urls": [
+        "https://www.loreal.com/en/greece/static-simple-cards/join-our-team/"
+      ],
+      "coverageGaps": [],
+      "description": "Simple card grid 'join our team' recruitment page (Greece)",
+      "blocks": []
+    }
+  ]
+}
