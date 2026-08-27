@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-  <comment>FileVault Package Definition</comment>
-  <entry key="name">loreal_en_beauty_n_science</entry>
-  <entry key="group">loreal-eds</entry>
-  <entry key="version">1.0.0</entry>
-  <entry key="description">Beauty Science &amp; Technology pages (6 pages + /en root) imported from loreal.com. Blocks: hero-stage, columns-media.</entry>
-  <entry key="createdBy">excat-migration</entry>
-  <entry key="packageType">content</entry>
-  <entry key="requiresRoot">false</entry>
-  <entry key="allowIndexDefinitions">false</entry>
+<comment>FileVault Package Properties</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="name">loreal_en_beauty_n_science</entry>
+<entry key="version">1.0.0</entry>
+<entry key="group">loreal-eds</entry>
+<entry key="path">/etc/packages/loreal-eds/loreal_en_beauty_n_science-1.0.0.zip</entry>
+<entry key="groupId">loreal-eds</entry>
+<entry key="artifactId">loreal_en_beauty_n_science</entry>
+<entry key="description">Beauty Science &amp; Technology pages (6 pages + /en root) imported from loreal.com. Blocks: hero-stage, columns-media.</entry>
+<entry key="packageType">content</entry>
+<entry key="packageFormatVersion">2</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="requiresRestart">false</entry>
+<entry key="acHandling">merge_preserve</entry>
+<entry key="buildCount">1</entry>
+<entry key="createdBy">excat-migration</entry>
+<entry key="created">2026-08-27T00:00:00.000+00:00</entry>
+<entry key="lastModified">2026-08-27T00:00:00.000+00:00</entry>
+<entry key="lastModifiedBy">excat-migration</entry>
+<entry key="lastWrapped">2026-08-27T00:00:00.000+00:00</entry>
+<entry key="lastWrappedBy">excat-migration</entry>
 </properties>

@@ -5,6 +5,9 @@
     group="loreal-eds"
     name="loreal_en_beauty_n_science"
     version="1.0.0"
+    acHandling="merge_preserve"
+    requiresRoot="false"
+    testedWith=""
     builtWith="excat-migration">
   <filter jcr:primaryType="nt:unstructured">
     <f0 jcr:primaryType="nt:unstructured" root="/content/eds-loreal/en/beauty-science-and-technology" mode="replace"/>
