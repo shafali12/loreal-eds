@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.loreal.com/en/beauty-science-and-technology/l-oreal-open-innovation/",
+  "path": "en/beauty-science-and-technology/l-oreal-open-innovation",
+  "timestamp": "2026-08-27T08:58:42.998Z",
+  "title": "",
+  "template": "beauty-science-and-technology",
+  "blocks": [
+    "hero-stage",
+    "columns-media",
+    "columns-media",
+    "columns-media"
+  ]
+}

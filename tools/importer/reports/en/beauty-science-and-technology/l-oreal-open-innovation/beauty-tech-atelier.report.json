@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "url": "https://www.loreal.com/en/beauty-science-and-technology/l-oreal-open-innovation/beauty-tech-atelier/",
+  "path": "en/beauty-science-and-technology/l-oreal-open-innovation/beauty-tech-atelier",
+  "timestamp": "2026-08-27T08:58:48.724Z",
+  "title": "",
+  "template": "beauty-science-and-technology",
+  "blocks": [
+    "hero-stage",
+    "columns-media",
+    "columns-media",
+    "columns-media",
+    "columns-media",
+    "columns-media",
+    "columns-media",
+    "columns-media",
+    "columns-media"
+  ]
+}

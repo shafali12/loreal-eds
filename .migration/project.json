@@ -1,0 +1,12 @@
+{
+  "type": "xwalk",
+  "sites": {
+    "loreal-eds": {
+      "previewOrg": "shafali12",
+      "previewSite": "loreal-eds",
+      "contentHostUrl": "author-p10903-e844381.adobeaemcloud.com",
+      "libraryUrl": "https://main--sta-xwalk-boilerplate--aemysites.aem.page/tools/sidekick/library.json"
+    }
+  },
+  "pluginRoot": "/home/node/.excat-marketplaces/excat-marketplace/excat"
+}

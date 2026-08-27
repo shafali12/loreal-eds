@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "projectType": "xwalk"
+  },
+  "templates": [
+    {
+      "name": "beauty-science-and-technology",
+      "urls": [
+        "https://www.loreal.com/en/beauty-science-and-technology/",
+        "https://www.loreal.com/en/beauty-science-and-technology/beauty-research-and-innovation/",
+        "https://www.loreal.com/en/beauty-science-and-technology/beauty-tech/",
+        "https://www.loreal.com/en/beauty-science-and-technology/l-oreal-open-innovation/",
+        "https://www.loreal.com/en/beauty-science-and-technology/l-oreal-open-innovation/beauty-tech-atelier/",
+        "https://www.loreal.com/en/beauty-science-and-technology/l-oreal-open-innovation/creating-breakthrough-products-through-collaborative-play/"
+      ],
+      "representativeUrl": "https://www.loreal.com/en/beauty-science-and-technology/",
+      "description": "L'Oréal Beauty Science & Technology section pages: full-bleed hero stage, a centered intro paragraph, and alternating two-column image + text media rows.",
+      "blocks": [
+        {
+          "name": "hero-stage",
+          "instances": [
+            "#content section.container.hero.hero--stage",
+            "section.hero.hero--stage"
+          ]
+        },
+        {
+          "name": "columns-media",
+          "instances": [
+            "#content > div.container.container--is-maxwidth > div.container--large:has(.copy-block--imgdisplay img)",
+            "#content > div.container.container--is-maxwidth > div.container--large:nth-of-type(3)",
+            "#content > div.container.container--is-maxwidth > div.container--large:nth-of-type(4)",
+            "#content > div.container.container--is-maxwidth > div.container--large:nth-of-type(5)"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "rc3",
+          "name": "Hero stage",
+          "selector": [
+            "#content > div.container.container--is-maxwidth > section.container.hero.hero--stage.hero--bottom.hero--left",
+            "#content section.container.hero.hero--stage"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-stage"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc5",
+          "name": "Intro paragraph",
+          "selector": "#content > div.container.container--is-maxwidth > div.container--large:nth-of-type(2)",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "#content > div.container.container--is-maxwidth > div.container--large:nth-of-type(2) .copy-block--fullwidth p"
+          ]
+        },
+        {
+          "id": "rc6",
+          "name": "Media row 1",
+          "selector": "#content > div.container.container--is-maxwidth > div.container--large:nth-of-type(3)",
+          "style": null,
+          "blocks": [
+            "columns-media"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc7",
+          "name": "Media row 2",
+          "selector": "#content > div.container.container--is-maxwidth > div.container--large:nth-of-type(4)",
+          "style": null,
+          "blocks": [
+            "columns-media"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc8",
+          "name": "Media row 3",
+          "selector": "#content > div.container.container--is-maxwidth > div.container--large:nth-of-type(5)",
+          "style": null,
+          "blocks": [
+            "columns-media"
+          ],
+          "defaultContent": []
+        }
+      ],
+      "urlPattern": "/en/*"
+    },
+    {
+      "name": "beauty-science-and-technology-2",
+      "urls": [
+        "https://www.loreal.com/en/beauty-science-and-technology/beauty-research-and-innovation/our-beauty-science-for-people/",
+        "https://www.loreal.com/en/beauty-science-and-technology/l-oreal-open-innovation/our-digital-and-tech-event/"
+      ],
+      "representativeUrl": "https://www.loreal.com/en/beauty-science-and-technology/beauty-research-and-innovation/our-beauty-science-for-people/",
+      "description": "To be named in naming step",
+      "blocks": [],
+      "urlPattern": "/en/beauty-science-and-technology/*"
+    },
+    {
+      "name": "beauty-research-and-innovation",
+      "urls": [
+        "https://www.loreal.com/en/beauty-science-and-technology/beauty-research-and-innovation/our-scientific-publications/"
+      ],
+      "representativeUrl": "https://www.loreal.com/en/beauty-science-and-technology/beauty-research-and-innovation/our-scientific-publications/",
+      "description": "To be named in naming step",
+      "blocks": [],
+      "urlPattern": "/en/beauty-science-and-technology/beauty-research-and-innovation/*"
+    },
+    {
+      "name": "our-scientific-publications",
+      "urls": [
+        "https://www.loreal.com/en/beauty-science-and-technology/beauty-research-and-innovation/our-scientific-publications/skin/"
+      ],
+      "representativeUrl": "https://www.loreal.com/en/beauty-science-and-technology/beauty-research-and-innovation/our-scientific-publications/skin/",
+      "description": "To be named in naming step",
+      "blocks": [],
+      "urlPattern": "/en/beauty-science-and-technology/beauty-research-and-innovation/our-scientific-publications/*"
+    }
+  ]
+}
