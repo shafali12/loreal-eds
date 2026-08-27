@@ -1,0 +1,41 @@
+{
+  "variantName": "columns-media",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-08-27T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.loreal.com/en/beauty-science-and-technology/",
+    "originPage": "L'Oréal Beauty Science & Technology overview page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "media",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image | heading + paragraphs + optional CTA (two columns, image/text order can swap)",
+    "columnCount": 2,
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "two-column image + informational text layouts (image on either side)",
+      "alternating photo + heading/copy/CTA content bands",
+      "editorial 'media object' rows pairing a photograph with a section of body copy"
+    ],
+    "notSuitableFor": [
+      "attributed testimonial/pull-quote layouts (use columns-quote)",
+      "text-only statistics / key-figures bands (use columns-stats)",
+      "distinct repeatable card grids with CTAs (use cards-feature)",
+      "full-bleed page-title hero banners (use hero-stage)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/en/beauty-science-and-technology/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-08-27T00:00:00.000Z"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.loreal.com/en/beauty-science-and-technology/beauty-research-and-innovation/",
+  "path": "en/beauty-science-and-technology/beauty-research-and-innovation",
+  "timestamp": "2026-08-27T08:58:32.651Z",
+  "title": "",
+  "template": "beauty-science-and-technology",
+  "blocks": [
+    "hero-stage",
+    "columns-media",
+    "columns-media"
+  ]
+}

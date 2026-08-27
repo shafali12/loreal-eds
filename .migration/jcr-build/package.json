@@ -1,0 +1,9 @@
+{
+  "name": "jcr-build",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@adobe/helix-html2md": "*",
+    "@adobe/helix-md2jcr": "1.5.7"
+  }
+}

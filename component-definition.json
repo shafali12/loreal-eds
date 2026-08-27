@@ -233,6 +233,21 @@
           }
         },
         {
+          "title": "Columns Media",
+          "id": "columns-media",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/columns/v1/columns",
+                "template": {
+                  "columns": "2",
+                  "rows": "1"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Columns Quote",
           "id": "columns-quote",
           "plugins": {
