@@ -15,4 +15,14 @@ export default function decorate(block) {
       }
     });
   });
+
+  // decorate a standalone CTA link (its own paragraph) as a brand pill button,
+  // matching the source .btn treatment when EDS auto-decoration doesn't apply
+  block.querySelectorAll('p > a:only-child').forEach((a) => {
+    const p = a.parentElement;
+    if (p.textContent.trim() === a.textContent.trim() && !a.classList.contains('button')) {
+      a.classList.add('button');
+      p.classList.add('button-container');
+    }
+  });
 }

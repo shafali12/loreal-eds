@@ -1,33 +1,92 @@
+/* columns-media — image + text two-column rows.
+   Values extracted from L'Oréal .copy-block--imgdisplay computed styles.
+   Alternating column order is handled by the authored cell order (JS marks
+   the image cell with .columns-media-img-col). */
+
+.columns-media {
+  max-width: 1152px;      /* 1024px content + 2 * 64px side gutters (source) */
+  margin: 0 auto;
+  padding: 30px 24px;
+}
+
+/* one row = the block's single child div */
 .columns-media > div {
   display: flex;
   flex-direction: column;
 }
 
-.columns-media img {
-  width: 100%;
-}
-
+/* cells */
 .columns-media > div > div {
   order: 1;
 }
 
+/* image cell stacks first on mobile regardless of authored order */
 .columns-media > div > .columns-media-img-col {
   order: 0;
+  padding-bottom: 20px;
 }
 
-.columns-media > div > .columns-media-img-col img {
+.columns-media img {
   display: block;
+  width: 100%;
+  border-radius: 0;
+  object-fit: fill;
+}
+
+/* typography — source overrides the global h2 (body face) back to the
+   Halesworth serif display treatment used in these editorial rows */
+.columns-media h2 {
+  margin: 0;
+  padding-bottom: 20px;
+  font-family: var(--heading-font-family);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0.9px;
+  color: var(--text-color);
+}
+
+.columns-media p {
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 16px;
+  line-height: 19.2px;
+  color: var(--text-color);
+}
+
+/* CTA — pill button; tighten to the source padding while reusing brand tokens */
+.columns-media a.button:any-link,
+.columns-media a.btn:any-link {
+  padding: 5px 15px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* button sits in its own paragraph (EDS button-container) — no bottom gap */
+.columns-media .button-container {
+  margin: 0;
+  padding-bottom: 0;
 }
 
 @media (width >= 900px) {
-  .columns-media > div {
-    align-items: center;
-    flex-direction: unset;
-    gap: 24px;
+  .columns-media {
+    padding: 30px 64px;
   }
 
+  .columns-media > div {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 35px;
+  }
+
+  /* two equal columns, top-aligned like the source */
   .columns-media > div > div {
-    flex: 1;
+    flex: 0 1 50%;
     order: unset;
+  }
+
+  .columns-media > div > .columns-media-img-col {
+    order: unset;
+    padding-bottom: 0;
   }
 }
