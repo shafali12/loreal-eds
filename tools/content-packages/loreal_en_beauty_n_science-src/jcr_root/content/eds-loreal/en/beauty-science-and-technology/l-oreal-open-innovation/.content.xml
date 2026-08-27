@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" jcr:primaryType="cq:Page">
+  <jcr:content cq:template="/libs/core/franklin/templates/page" sling:resourceType="core/franklin/components/page/v1/page" jcr:primaryType="cq:PageContent" jcr:title="" modelFields="[jcr:title,jcr:description,keywords]">
+    <root jcr:primaryType="nt:unstructured" sling:resourceType="core/franklin/components/root/v1/root">
+      <section sling:resourceType="core/franklin/components/section/v1/section" jcr:primaryType="nt:unstructured" model="section" modelFields="[name,style]">
+        <block sling:resourceType="core/franklin/components/block/v1/block" jcr:primaryType="nt:unstructured" image="https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/5-science-and-technology/beauty-research-and-innovation/image.jpg?rev=edc61b9a5e2940c99553077fc9c6443d&amp;cx=0.36&amp;cy=0.48&amp;cw=1920&amp;ch=800&amp;blr=False&amp;hash=03771B7F8E59EE863F783839614E1651" model="hero-stage" modelFields="[image,imageAlt,text]" name="Hero Stage" text="&lt;p&gt;&lt;h1&gt;Open Innovation&lt;/h1&gt;&lt;/p&gt;&lt;p&gt;Creating the future through technology and partnership&lt;/p&gt;"></block>
+        <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;ul&gt;
+                    &lt;li&gt;&lt;a href&#x3D;&quot;/en/&quot;&gt;L&#x27;Oréal Groupe&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href&#x3D;&quot;/en/beauty-science-and-technology/&quot;&gt;Beauty Science &amp;#x26; Technology&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;L&#x27;Oréal Open Innovation&lt;/strong&gt;&lt;/li&gt;
+                    &lt;/ul&gt;"/>
+      </section>
+      <section_1 sling:resourceType="core/franklin/components/section/v1/section" jcr:primaryType="nt:unstructured" model="section" modelFields="[name,style]">
+        <columns sling:resourceType="core/franklin/components/columns/v1/columns" jcr:primaryType="nt:unstructured" rows="1" columns="2">
+          <row1 jcr:primaryType="nt:unstructured">
+            <col1 jcr:primaryType="nt:unstructured">
+              <image sling:resourceType="core/franklin/components/image/v1/image" jcr:primaryType="nt:unstructured" image="https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/5-science-and-technology/open-innovation-rework/open-innovation-page/open-ino.jpg?rev&#x3D;c4e5bb3d139f496aa785b1d7b1d5e70e&amp;hash&#x3D;FD76687D9FADF4AD8C46C91D745B2172" imageAlt="OPEN INO"/>
+            </col1>
+            <col2 jcr:primaryType="nt:unstructured">
+              <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="L&#x27;Oréal: one of the top 100 companies committed to Open Innovation" titleType="h4"/>
+              <title_1 sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="Receiving a Corporate Startup Stars Award" titleType="h5"/>
+              <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;Run by the open innovation advisory firm Mind the Bridge and the
+                    International Chamber of Commerce, this award recognizes our active and
+                    collaborative approach with startups.&lt;/p&gt;&lt;p&gt;As the Beauty Tech champion, we partner in a co-creation mode with
+                    cutting-edge startups and suppliers, through our &lt;a href&#x3D;&quot;https://www.lorealboldventures.com/&quot;&gt;BOLD Corporate Venture fund&lt;/a&gt;
+                    for example. Before entering partnerships, we establish the strategic
+                    areas that complement or accelerate our internal capabilities, from
+                    Green Sciences to Tech Solutions.&lt;/p&gt;&lt;p&gt;Together, we fertilize L&#x27;Oréal&#x27;s century-old expertise and data to push
+                    scientific and tech boundaries, pioneering superior beauty experiences.&lt;/p&gt;"/>
+            </col2>
+          </row1>
+        </columns>
+      </section_1>
+      <section_2 sling:resourceType="core/franklin/components/section/v1/section" jcr:primaryType="nt:unstructured" model="section" modelFields="[name,style]">
+        <columns sling:resourceType="core/franklin/components/columns/v1/columns" jcr:primaryType="nt:unstructured" rows="1" columns="1">
+          <row1 jcr:primaryType="nt:unstructured">
+            <col1 jcr:primaryType="nt:unstructured">
+              <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;blockquote&gt;
+                    &lt;p&gt;Collaboration and partnerships are the key to innovating better, faster and to offer the best beauty experiences
+                    and services to our customers. It’s together that we shape the Future of Beauty, in a win-win partnership.&lt;/p&gt;
+                    &lt;p&gt;Asmita Dubey&lt;/p&gt;
+                    &lt;p&gt;Chief Digital &amp;#x26; Marketing Officer&lt;/p&gt;
+                    &lt;/blockquote&gt;"/>
+            </col1>
+          </row1>
+        </columns>
+      </section_2>
+      <section_3 sling:resourceType="core/franklin/components/section/v1/section" jcr:primaryType="nt:unstructured" model="section" modelFields="[name,style]">
+        <columns sling:resourceType="core/franklin/components/columns/v1/columns" jcr:primaryType="nt:unstructured" rows="1" columns="2">
+          <row1 jcr:primaryType="nt:unstructured">
+            <col1 jcr:primaryType="nt:unstructured">
+              <image sling:resourceType="core/franklin/components/image/v1/image" jcr:primaryType="nt:unstructured" image="https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/5-science-and-technology/open-innovation-rework/open-innovation-page/image-1-v5.png?rev&#x3D;2f5d2a01e9914e989e2b95c1252db1ce&amp;hash&#x3D;FDDF1B5111F8150A701B4D3F2B7041EB" imageAlt="Image 1 V5"/>
+            </col1>
+            <col2 jcr:primaryType="nt:unstructured">
+              <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="L&#x27;Oréal Beauty Tech Atelier" titleType="h4"/>
+              <title_1 sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="Startup Accelerator" titleType="h5"/>
+              <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;We want to spot, partner and support beauty and tech startups that can transform the way we
+                    interact with you. Our Open Innovation teams are on a constant lookout and quest for the
+                    next beauty tech startups and technologies, drawing on our partnerships with incubators,
+                    accelerators, investment funds, including Incubateur HEC Paris and Station F.&lt;/p&gt;&lt;p&gt;We share our expertise in Digital, Marketing, Consumer &amp;#x26; Market knowledge or again Product
+                    development and R&amp;#x26;I while learning about new technology and agility. In doing so, we
+                    establish lasting connections.&lt;/p&gt;"/>
+              <button sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="/en/beauty-science-and-technology/l-oreal-open-innovation/beauty-tech-atelier/" linkText="Learn more"/>
+            </col2>
+          </row1>
+        </columns>
+        <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;h4&gt;We share your vision of beauty&lt;/h4&gt;&lt;p&gt;We celebrate beauty in all its diversity, and we collaborate with people of all genders, backgrounds, skin types and walks of life. We aim at building long-term and solid relationships with the talent and influencers we work with based on transparency and mutual trust.&lt;/p&gt;&lt;p&gt;Close&lt;/p&gt;"/>
+        <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="Discover We Believe in Partnership" titleType="h2"/>
+        <text_1 sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;Collaboration and partnerships are the key to innovating better and faster.&lt;br&gt;
+                    &lt;br&gt;
+                    Through our Open Innovation Program and partnerships with early stage companies focused on digital beauty services we co-create the future of Beauty.&lt;br&gt;
+                    &lt;br&gt;
+                    While these new players benefit from our operational support and expertise, our customers benefit from the great ideas put right into their hands.&lt;/p&gt;"/>
+        <image sling:resourceType="core/franklin/components/image/v1/image" jcr:primaryType="nt:unstructured" image="blob:https://www.loreal.com/e273fbe9-d679-4ee5-8b32-ac5fbf76eec5" imageAlt="card Real school"/>
+        <text_2 sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;Groupe&lt;/p&gt;&lt;p&gt;L’Oréal Creates The First Bachelor’s Degree in “Entrepreneurial Hairdressing”&lt;/p&gt;"/>
+        <button sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="/en/news/group/first-bachelors-degree-in-entrepreneurial-hairdressing/" linkText="L’Oréal Creates The First Bachelor’s Degree in “Entrepreneurial Hairdressing”"/>
+        <image_1 sling:resourceType="core/franklin/components/image/v1/image" jcr:primaryType="nt:unstructured" image="blob:https://www.loreal.com/75037b8c-7b54-4418-92c0-0b53c8b622b8" imageAlt=""/>
+        <text_3 sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;Discover BOLD – Corporate Venture Fund of L’Oreal that Supports Innovative Startups&lt;/p&gt;"/>
+        <button_1 sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="http://lorealboldventures.com/" linkText="Discover BOLD – Corporate Venture Fund of L’Oreal that Supports Innovative Startups"/>
+        <text_4 sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;Close&lt;/p&gt;"/>
+        <title_1 sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="Discover Experiencing Digital and Tech Events" titleType="h2"/>
+        <text_5 sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;Imagination – innovation – communication. We want to travel together with everyone who is interested in a journey towards creative excellence, empowering talent and delivering an enhanced, personalized beauty experience. Meet us at our world-class events to share ideas and discuss opportunities.&lt;/p&gt;"/>
+        <image_2 sling:resourceType="core/franklin/components/image/v1/image" jcr:primaryType="nt:unstructured" image="blob:https://www.loreal.com/e82567b9-8623-4dda-b5b7-e94452946401" imageAlt=""/>
+        <text_6 sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;Science and Technology&lt;/p&gt;&lt;p&gt;Cannes Lions Festival&lt;/p&gt;"/>
+        <button_2 sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="/en/articles/science-and-technology/cannes-lions-festival/" linkText="Cannes Lions Festival"/>
+        <image_3 sling:resourceType="core/franklin/components/image/v1/image" jcr:primaryType="nt:unstructured" image="blob:https://www.loreal.com/9e619708-aea4-4645-ba57-8efd799c8b79" imageAlt=""/>
+        <text_7 sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;Science and Technology&lt;/p&gt;&lt;p&gt;Tech For Good Summit&lt;/p&gt;"/>
+        <button_3 sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="/en/articles/science-and-technology/tech-for-good-summit/" linkText="Tech For Good Summit"/>
+        <image_4 sling:resourceType="core/franklin/components/image/v1/image" jcr:primaryType="nt:unstructured" image="blob:https://www.loreal.com/6b436d84-67e4-4d31-8de9-f9c64c3ca82d" imageAlt=""/>
+        <text_8 sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;Creating Breakthrough Products Through Collaborative Play&lt;/p&gt;"/>
+        <button_4 sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="%20https://beautytmr.com/creating-breakthrough-products-through-collaborative-play-a2158bf5b44f%20" linkText="Creating Breakthrough Products Through Collaborative Play"/>
+      </section_3>
+    </root>
+  </jcr:content>
+</jcr:root>

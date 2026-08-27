@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" jcr:primaryType="cq:Page">
+  <jcr:content cq:template="/libs/core/franklin/templates/page" sling:resourceType="core/franklin/components/page/v1/page" jcr:primaryType="cq:PageContent" jcr:title="" modelFields="[jcr:title,jcr:description,keywords]">
+    <root jcr:primaryType="nt:unstructured" sling:resourceType="core/franklin/components/root/v1/root">
+      <section sling:resourceType="core/franklin/components/section/v1/section" jcr:primaryType="nt:unstructured" model="section" modelFields="[name,style]">
+        <block sling:resourceType="core/franklin/components/block/v1/block" jcr:primaryType="nt:unstructured" image="https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/5-science-and-technology/open-innovation-rework/apply-page/herro-apply-page-open-innovation.jpg?rev=64645fd1fc9c4a2cb8d11a6d7a3171b2&amp;cx=0.45&amp;cy=0.27&amp;cw=1920&amp;ch=800&amp;blr=False&amp;hash=F5F6C46954A7B097BF265F99A844D1EA" model="hero-stage" modelFields="[image,imageAlt,text]" name="Hero Stage" text="&lt;p&gt;&lt;h1&gt;L’Oréal Beauty Tech Atelier, Our Open Innovation Program&lt;/h1&gt;&lt;/p&gt;&lt;p&gt;Innovate with us to co-create the future of Beauty&lt;/p&gt;&lt;p&gt;&lt;a href&#x3D;&quot;https://forms.office.com/pages/responsepage.aspx?id&#x3D;2avh5MfqcUqrUtpcmYqnusgHciPv6ZNCht4qF9hUyPxUQlA5VUtaTFdSNTNTSERBNDNBT0JVTTExWS4u&quot;&gt;Apply now&lt;/a&gt;&lt;/p&gt;"></block>
+        <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;ul&gt;
+                    &lt;li&gt;&lt;a href&#x3D;&quot;/en/&quot;&gt;L&#x27;Oréal Groupe&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href&#x3D;&quot;/en/beauty-science-and-technology/&quot;&gt;Beauty Science &amp;#x26; Technology&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href&#x3D;&quot;/en/beauty-science-and-technology/l-oreal-open-innovation/&quot;&gt;L&#x27;Oréal Open Innovation&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;L&#x27;Oréal Beauty Tech Atelier&lt;/strong&gt;&lt;/li&gt;
+                    &lt;/ul&gt;"/>
+      </section>
+      <section_1 sling:resourceType="core/franklin/components/section/v1/section" jcr:primaryType="nt:unstructured" model="section" modelFields="[name,style]">
+        <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="Our Accelerator for Tech &amp; Digital Startups in Beauty" titleType="h2"/>
+        <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;At L’Oréal, we believe that new tech &amp;#x26; innovative business models are going to profoundly change the Beauty consumer experience for the better.&lt;br&gt;
+                    &lt;br&gt;
+                    We want to lead this change and co-create the future of beauty with the creative talents and entrepreneurs of tomorrow who have the ability to transform the way Beauty Brands interact with consumers.&lt;br&gt;
+                    &lt;br&gt;
+                    Joining the Beauty Tech Atelier means seizing the opportunity to be introduced to our 35+ global Beauty Brands and to benefit from the resources and talents of our key partners such as Station F or the Incubateur HEC Paris. We want to establish partnerships with emerging companies from all over the world to build a new generation of personalized and innovative digital services so that together we can create the beauty that moves the world.&lt;/p&gt;&lt;p&gt;98&lt;/p&gt;&lt;p&gt;Startups&lt;br&gt;
+                    accelerated since 2018&lt;/p&gt;&lt;p&gt;International&lt;br&gt;
+                    startups&lt;/p&gt;&lt;p&gt;Female Founded&lt;br&gt;
+                    Startups&lt;/p&gt;&lt;p&gt;Impact&lt;br&gt;
+                    Solutions&lt;/p&gt;"/>
+      </section_1>
+      <section_2 sling:resourceType="core/franklin/components/section/v1/section" jcr:primaryType="nt:unstructured" model="section" modelFields="[name,style]">
+        <columns sling:resourceType="core/franklin/components/columns/v1/columns" jcr:primaryType="nt:unstructured" rows="1" columns="2">
+          <row1 jcr:primaryType="nt:unstructured">
+            <col1 jcr:primaryType="nt:unstructured">
+              <image sling:resourceType="core/franklin/components/image/v1/image" jcr:primaryType="nt:unstructured" image="https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/5-science-and-technology/loreal-open-innovation/l-oreal-innovation-program/beauty-tech-atelier-2025/img-2-who-is-the-program-for.jpg?rev&#x3D;93374c61b0a0475b8318505b0fcc2197&amp;hash&#x3D;3CD17A4B66DDE0FAA8295C036CFE6965" imageAlt="IMG 2 WHO IS THE PROGRAM FOR"/>
+            </col1>
+            <col2 jcr:primaryType="nt:unstructured">
+              <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="Who is the program for?" titleType="h2"/>
+              <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;&lt;strong&gt;Verticals&lt;/strong&gt;&lt;br&gt;
+                    We are looking for startups leveraging technology and new
+                    business models to propose new experiences in the beauty
+                    industry.&lt;br&gt;
+                    &lt;br&gt;
+                    &lt;a href&#x3D;&quot;&quot;&gt;Digital Services&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href&#x3D;&quot;&quot;&gt;E-commerce &amp;#x26; Social&lt;/a&gt; &lt;a href&#x3D;&quot;&quot;&gt;Data &amp;#x26; AI&lt;/a&gt;&lt;br&gt;
+                    &lt;br&gt;
+                    &lt;a href&#x3D;&quot;&quot;&gt;Impact&lt;/a&gt; &lt;a href&#x3D;&quot;&quot;&gt;Gaming&lt;/a&gt;&lt;a href&#x3D;&quot;&quot;&gt;Creativity&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Maturity&lt;/strong&gt;&lt;br&gt;
+                    We&#x27;re looking for early-stage startups ready to scale,
+                    ideally with experience collaborating with corporate
+                    partners. A successful PoC or pilot with a L&#x27;Oréal Beauty
+                    Brand is usually a strong starting point of the Beauty
+                    Tech Atelier journey.&lt;br&gt;
+                    &lt;br&gt;
+                    &lt;a href&#x3D;&quot;&quot;&gt;Seed&lt;/a&gt; &lt;a href&#x3D;&quot;&quot;&gt;Series A&lt;/a&gt;&lt;/p&gt;"/>
+            </col2>
+          </row1>
+        </columns>
+      </section_2>
+      <section_3 sling:resourceType="core/franklin/components/section/v1/section" jcr:primaryType="nt:unstructured" model="section" modelFields="[name,style]">
+        <columns sling:resourceType="core/franklin/components/columns/v1/columns" jcr:primaryType="nt:unstructured" rows="1" columns="1">
+          <row1 jcr:primaryType="nt:unstructured">
+            <col1 jcr:primaryType="nt:unstructured">
+              <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="Program Offering" titleType="h2"/>
+              <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;L’Oréal Beauty Tech Atelier welcomes each semester up to 10 high potential early-stage startups and accelerates their
+                    development by bringing them strategic mentoring and operational support.&lt;br&gt;
+                    &lt;br&gt;
+                    The program is completely free of cost and can run in a hybrid format for entrepreneurs based outside Paris.&lt;/p&gt;"/>
+            </col1>
+          </row1>
+        </columns>
+        <button sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="/-/media/project/loreal/brand-sites/corp/master/lcorp/5-science-and-technology/loreal-open-innovation/l-oreal-innovation-program/beauty-tech-atelier-2025/logo-loreal.png?rev=4523ff510b7e4e149983d48f8c241aff&amp;hash=7053F8D406A7CDCE2C16B140D1B1F5B8" linkText=""/>
+        <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;Benefit from the expertise of the world leader in Beauty to develop your startup. A dedicated mentor will support your growth and help you navigate within the group and its +35 internationals Beauty Brands.&lt;/p&gt;"/>
+        <button_1 sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="/-/media/project/loreal/brand-sites/corp/master/lcorp/5-science-and-technology/loreal-open-innovation/l-oreal-innovation-program/beauty-tech-atelier-2025/logo-hec.png?rev=3b67dbeca0854896a52a57663114def2&amp;hash=9EB7E1F22B8022041F4A8F85B8196827" linkText=""/>
+        <text_1 sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;Access on demand a network of +700 experts thanks to our partnership with the Incubateur HEC Paris and one-on-one coaching.&lt;/p&gt;"/>
+        <image sling:resourceType="core/franklin/components/image/v1/image" jcr:primaryType="nt:unstructured" image="https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/5-science-and-technology/loreal-open-innovation/l-oreal-innovation-program/beauty-tech-atelier-2025/logo-sf.png?rev&#x3D;2cfb7540ba9744f99f6d4859cf55365d&amp;hash&#x3D;080EA439CE4E2AB488545F641F380BDA" imageAlt="LOGO SF"/>
+        <text_2 sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;Huge investor community, 150+ perks and offers, 35 public services, 600+ events and workshops per year - Benefit from STATION F’ ecosystem, the world&#x27;s largest startup campus!&lt;/p&gt;"/>
+        <columns_1 sling:resourceType="core/franklin/components/columns/v1/columns" jcr:primaryType="nt:unstructured" rows="1" columns="2">
+          <row1 jcr:primaryType="nt:unstructured">
+            <col1 jcr:primaryType="nt:unstructured">
+              <image sling:resourceType="core/franklin/components/image/v1/image" jcr:primaryType="nt:unstructured" image="https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/5-science-and-technology/loreal-open-innovation/l-oreal-innovation-program/beauty-tech-atelier-2025/img-4--station-f-ecosystem-1.jpg?rev&#x3D;ad43d1d4a9fe4714918a96c0e4615471&amp;hash&#x3D;0462C3956623090795FF8C110938DA1C" imageAlt="IMG 4 STATION F ECOSYSTEM 1"/>
+            </col1>
+            <col2 jcr:primaryType="nt:unstructured">
+              <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="Station F Ecosystem" titleType="h3"/>
+              <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;&lt;strong&gt;Access to Station F:&lt;/strong&gt; the world&#x27;s largest start-up campus with a unique
+                    network of over 200 founders and investors.&lt;br&gt;
+                    &lt;br&gt;
+                    &lt;strong&gt;Workspace and unlimited Wi-Fi&lt;/strong&gt;: Work in a stimulating, connected environment.&lt;br&gt;
+                    &lt;br&gt;
+                    &lt;strong&gt;Custom services with experts:&lt;/strong&gt; Benefit from strategic advice from VCs and lawyers, among others.&lt;br&gt;
+                    &lt;br&gt;
+                    &lt;strong&gt;Meetings:&lt;/strong&gt; Expand your network accessing private events.&lt;/p&gt;"/>
+            </col2>
+          </row1>
+        </columns_1>
+        <columns_2 sling:resourceType="core/franklin/components/columns/v1/columns" jcr:primaryType="nt:unstructured" rows="1" columns="2">
+          <row1 jcr:primaryType="nt:unstructured">
+            <col1 jcr:primaryType="nt:unstructured">
+              <image sling:resourceType="core/franklin/components/image/v1/image" jcr:primaryType="nt:unstructured" image="https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/5-science-and-technology/loreal-open-innovation/l-oreal-innovation-program/beauty-tech-atelier-2025/img-4--development.jpg?rev&#x3D;0292e09d13944f2bab3aaa290d83068d&amp;hash&#x3D;39AB6900555B06B3C9BB05FDE5CC19AD" imageAlt="IMG 4 DEVELOPMENT"/>
+            </col1>
+            <col2 jcr:primaryType="nt:unstructured">
+              <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="Development" titleType="h3"/>
+              <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;&lt;strong&gt;Global Scale Acceleration:&lt;/strong&gt; The Beauty Tech Atelier
+                    provides global acceleration across L’Oréal business
+                    units.&lt;br&gt;
+                    &lt;br&gt;
+                    &lt;strong&gt;Next-Stage Growth:&lt;/strong&gt; The program acts as the global
+                    platform of our local and regional innovation chapters
+                    such as Big Bang Beauty Tech Innovation Program in
+                    L’Oréal SAPMENA &amp;#x26; North Asia.&lt;/p&gt;"/>
+            </col2>
+          </row1>
+        </columns_2>
+        <columns_3 sling:resourceType="core/franklin/components/columns/v1/columns" jcr:primaryType="nt:unstructured" rows="1" columns="2">
+          <row1 jcr:primaryType="nt:unstructured">
+            <col1 jcr:primaryType="nt:unstructured">
+              <image sling:resourceType="core/franklin/components/image/v1/image" jcr:primaryType="nt:unstructured" image="https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/5-science-and-technology/loreal-open-innovation/l-oreal-innovation-program/beauty-tech-atelier-2025/img-4--visibility.jpg?rev&#x3D;cfc5b0d128f3417bbefda8e69d167b5d&amp;hash&#x3D;F3CB0BED5B8BE4D12F1E349E4A9551C8" imageAlt="IMG 4 VISIBILITY"/>
+            </col1>
+            <col2 jcr:primaryType="nt:unstructured">
+              <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="Visibility" titleType="h3"/>
+              <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;&lt;strong&gt;Increased visibility:&lt;/strong&gt; Gain visibility thanks to the
+                    opportunities offered on media and social networks.&lt;br&gt;
+                    &lt;br&gt;
+                    &lt;strong&gt;New commercial partnerships:&lt;/strong&gt; Introduce your solutions
+                    to L&#x27;Oréal teams and markets and develop new commercial
+                    partnership.&lt;/p&gt;"/>
+            </col2>
+          </row1>
+        </columns_3>
+        <columns_4 sling:resourceType="core/franklin/components/columns/v1/columns" jcr:primaryType="nt:unstructured" rows="3" columns="6">
+          <row1 jcr:primaryType="nt:unstructured">
+            <col1 jcr:primaryType="nt:unstructured">
+              <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="How to Apply?" titleType="h2"/>
+              <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;h2&gt;1&lt;/h2&gt;&lt;/th&gt;&lt;th&gt;&lt;h5&gt;Start from Local&lt;/h5&gt;&lt;div&gt;&lt;div&gt;&lt;p&gt;The Beauty Tech Atelier is L&#x27;Oréal&#x27;s global program. The best way to begin your adventure is to contact your local L&#x27;Oréal Digital and Marketing teams.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;h2&gt;2&lt;/h2&gt;&lt;/td&gt;&lt;td&gt;&lt;h5&gt;Application&lt;/h5&gt;&lt;div&gt;&lt;div&gt;&lt;p&gt;Use the link below to apply. While we prefer to start from existing POCs, you can always make yourselves known. Be as comprehensive as possible and mention all relevant details. This program is dedicated to tech and digital startups.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;"/>
+              <button sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="https://forms.office.com/pages/responsepage.aspx?id=2avh5MfqcUqrUtpcmYqnusgHciPv6ZNCht4qF9hUyPxUQlA5VUtaTFdSNTNTSERBNDNBT0JVTTExWS4u" linkText="Apply now"/>
+            </col1>
+            <col2 jcr:primaryType="nt:unstructured">
+              <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="1" titleType="h2"/>
+            </col2>
+            <col3 jcr:primaryType="nt:unstructured">
+              <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="Start from Local" titleType="h5"/>
+              <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;div&gt;&lt;p&gt;The Beauty Tech Atelier is L&#x27;Oréal&#x27;s global program. The
+                    best way to begin your adventure is to contact your local
+                    L&#x27;Oréal Digital and Marketing teams.&lt;/p&gt;&lt;/div&gt;"/>
+            </col3>
+            <col4 jcr:primaryType="nt:unstructured">
+              <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="2" titleType="h2"/>
+            </col4>
+            <col5 jcr:primaryType="nt:unstructured">
+              <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="Application" titleType="h5"/>
+              <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;div&gt;&lt;p&gt;Use the link below to apply. While we prefer to start
+                    from existing POCs, you can always make yourselves known.
+                    Be as comprehensive as possible and mention all relevant
+                    details. This program is dedicated to tech and digital
+                    startups.&lt;/p&gt;&lt;/div&gt;"/>
+            </col5>
+            <col6 jcr:primaryType="nt:unstructured">
+              <image sling:resourceType="core/franklin/components/image/v1/image" jcr:primaryType="nt:unstructured" image="https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/5-science-and-technology/loreal-open-innovation/l-oreal-innovation-program/beauty-tech-atelier-2025/img-5--how-to-apply.jpg?rev&#x3D;d03fe67e4949436da11ec2887b6b8a04&amp;hash&#x3D;2336CA0F922D0940F974101AA2566528" imageAlt="IMG 5 HOW TO APPLY"/>
+            </col6>
+          </row1>
+          <row2 jcr:primaryType="nt:unstructured">
+            <col1 jcr:primaryType="nt:unstructured">
+              <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="1" titleType="h2"/>
+            </col1>
+            <col2 jcr:primaryType="nt:unstructured">
+              <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="Start from Local" titleType="h5"/>
+              <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;div&gt;&lt;p&gt;The Beauty Tech Atelier is L&#x27;Oréal&#x27;s global program. The
+                    best way to begin your adventure is to contact your local
+                    L&#x27;Oréal Digital and Marketing teams.&lt;/p&gt;&lt;/div&gt;"/>
+            </col2>
+          </row2>
+          <row3 jcr:primaryType="nt:unstructured">
+            <col1 jcr:primaryType="nt:unstructured">
+              <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="2" titleType="h2"/>
+            </col1>
+            <col2 jcr:primaryType="nt:unstructured">
+              <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="Application" titleType="h5"/>
+              <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;div&gt;&lt;p&gt;Use the link below to apply. While we prefer to start
+                    from existing POCs, you can always make yourselves known.
+                    Be as comprehensive as possible and mention all relevant
+                    details. This program is dedicated to tech and digital
+                    startups.&lt;/p&gt;&lt;/div&gt;"/>
+            </col2>
+          </row3>
+        </columns_4>
+        <columns_5 sling:resourceType="core/franklin/components/columns/v1/columns" jcr:primaryType="nt:unstructured" rows="1" columns="1">
+          <row1 jcr:primaryType="nt:unstructured">
+            <col1 jcr:primaryType="nt:unstructured">
+              <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="Meet our Community of 98 Startups" titleType="h2"/>
+              <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;&lt;strong&gt;Current &amp;#x26; Alumni Startups&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;img src&#x3D;&quot;https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/5-science-and-technology/loreal-open-innovation/l-oreal-innovation-program/beauty-tech-atelier-2025/img-6--startups-portfolio.png?rev&#x3D;00040693fca14594bd618ab7b90b61c0&amp;#x26;hash&#x3D;3229DE1F0FAB8D1AB52AE48B02A3551A&quot; alt&#x3D;&quot;IMG 6 STARTUPS PORTFOLIO&quot;&gt;&lt;/strong&gt;&lt;/p&gt;"/>
+            </col1>
+          </row1>
+        </columns_5>
+        <text_3 sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;&lt;em&gt;&lt;sub&gt;&lt;sup&gt;Last Update August 2026&lt;/sup&gt;&lt;/sub&gt;&lt;/em&gt;&lt;br&gt;
+                    &lt;em&gt;&lt;sub&gt;&lt;sup&gt;Source:&lt;a href&#x3D;&quot;https://www.loreal.com/en/beauty-science-and-technology/l-oreal-open-innovation/&quot;&gt;L&#x27;Oréal Open Innovation&lt;/a&gt;&lt;/sup&gt;&lt;/sub&gt;&lt;/em&gt;&lt;/p&gt;"/>
+        <button_2 sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="#main-content" linkText="Back on Top"/>
+      </section_3>
+    </root>
+  </jcr:content>
+</jcr:root>

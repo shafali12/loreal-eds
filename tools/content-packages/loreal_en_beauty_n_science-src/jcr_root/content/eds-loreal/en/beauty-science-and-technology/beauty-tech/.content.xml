@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" jcr:primaryType="cq:Page">
+  <jcr:content cq:template="/libs/core/franklin/templates/page" sling:resourceType="core/franklin/components/page/v1/page" jcr:primaryType="cq:PageContent" jcr:title="" modelFields="[jcr:title,jcr:description,keywords]">
+    <root jcr:primaryType="nt:unstructured" sling:resourceType="core/franklin/components/root/v1/root">
+      <section sling:resourceType="core/franklin/components/section/v1/section" jcr:primaryType="nt:unstructured" model="section" modelFields="[name,style]">
+        <block sling:resourceType="core/franklin/components/block/v1/block" jcr:primaryType="nt:unstructured" image="https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/5-science-and-technology/2026/beauty-tech/2025-beautytech-hrlancome-futureofbeauty-womanshortbuzzcutgoldenscanoverlaysoftbluebackground.jpg?rev=2f02a13156b54123b353473d920e497a&amp;cx=0.47&amp;cy=0.42&amp;cw=1920&amp;ch=800&amp;blr=False&amp;hash=51E4D42B9136BDA1FF3D91432441F650" model="hero-stage" modelFields="[image,imageAlt,text]" name="Hero Stage" text="&lt;p&gt;&lt;h1&gt;Beauty Tech&lt;/h1&gt;&lt;/p&gt;&lt;p&gt;Harnessing the power of tech, data and AI&lt;/p&gt;"></block>
+        <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;ul&gt;
+                    &lt;li&gt;&lt;a href&#x3D;&quot;/en/beauty-science-and-technology/&quot;&gt;Beauty Science &amp;#x26; Technology&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;Beauty Tech Innovation&lt;/strong&gt;&lt;/li&gt;
+                    &lt;/ul&gt;"/>
+      </section>
+      <section_1 sling:resourceType="core/franklin/components/section/v1/section" jcr:primaryType="nt:unstructured" model="section" modelFields="[name,style]">
+        <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;Technology is evolving at an exponential pace, with innovations like Gen-AI unlocking new possibilities and increasing consumer expectation for smarter solutions. L’Oréal leverages advanced science and latest technologies to bring personalised, inclusive and responsible beauty at scale. With augmented products, smart devices, online platforms, and digital services that diagnose, predict, guide, treat and coach people’s lifelong beauty journey, we are delivering “beauty for each”, powered by Beauty Tech.&lt;br&gt;
+                    &lt;br&gt;
+                    Our journey started with virtual try-on services, allowing millions to experiment with makeup and hair colour digitally. This then evolved into advanced diagnostic tools, leveraging AI for personalized skin and hair analysis, providing bespoke routines and product recommendations.&lt;br&gt;
+                    &lt;br&gt;
+                    Our commitment lies in merging advanced science with digital prowess to create intelligent solutions that cater to individual needs and elevate beauty rituals beyond traditional boundaries.&lt;/p&gt;"/>
+      </section_1>
+      <section_2 sling:resourceType="core/franklin/components/section/v1/section" jcr:primaryType="nt:unstructured" model="section" modelFields="[name,style]">
+        <columns sling:resourceType="core/franklin/components/columns/v1/columns" jcr:primaryType="nt:unstructured" rows="1" columns="1">
+          <row1 jcr:primaryType="nt:unstructured">
+            <col1 jcr:primaryType="nt:unstructured">
+              <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;8K+&lt;/p&gt;&lt;p&gt;Digital, tech and data experts&lt;/p&gt;&lt;p&gt;No.1&lt;/p&gt;&lt;p&gt;World’s richest beauty database with millions of data points&lt;/p&gt;&lt;p&gt;120+M&lt;/p&gt;&lt;p&gt;Uses of our Beauty Tech services across 66 countries and 31 brands&lt;/p&gt;"/>
+            </col1>
+          </row1>
+        </columns>
+      </section_2>
+      <section_3 sling:resourceType="core/franklin/components/section/v1/section" jcr:primaryType="nt:unstructured" model="section" modelFields="[name,style]">
+        <columns sling:resourceType="core/franklin/components/columns/v1/columns" jcr:primaryType="nt:unstructured" rows="1" columns="1">
+          <row1 jcr:primaryType="nt:unstructured">
+            <col1 jcr:primaryType="nt:unstructured">
+              <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;65K+​&lt;/p&gt;&lt;p&gt;employees upskilled on generative AI in 2025&lt;/p&gt;&lt;p&gt;60%&lt;/p&gt;&lt;p&gt;of our global digital, tech and data recruitments in 2025 were women​&lt;/p&gt;"/>
+            </col1>
+          </row1>
+        </columns>
+      </section_3>
+      <section_4 sling:resourceType="core/franklin/components/section/v1/section" jcr:primaryType="nt:unstructured" model="section" modelFields="[name,style]">
+        <columns sling:resourceType="core/franklin/components/columns/v1/columns" jcr:primaryType="nt:unstructured" rows="1" columns="1">
+          <row1 jcr:primaryType="nt:unstructured">
+            <col1 jcr:primaryType="nt:unstructured">
+              <button sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="https://www.loreal.com/en/articles/science-and-technology/loreal-paris-beauty-genius/" linkText=""/>
+              <button_1 sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="/sitecore/service/notfound.aspx?item=web%3a%7b5C38B552-9A08-4DF9-A356-1ACD2782B246%7d%40en" linkText="Beauty Genius"/>
+              <button_2 sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="/en/articles/science-and-technology/lancome-led-mask/" linkText=""/>
+              <button_3 sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="/en/articles/science-and-technology/lancome-led-mask/" linkText="LED Face Mask and Absolue"/>
+              <button_4 sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="/en/articles/science-and-technology/light-straight-multi-styler/" linkText=""/>
+              <button_5 sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="/en/articles/science-and-technology/light-straight-multi-styler/" linkText="Light Straight™ + Multi-styler"/>
+            </col1>
+          </row1>
+        </columns>
+        <button sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="/en/articles/science-and-technology/cell-bioprint/" linkText=""/>
+        <button_1 sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="/en/articles/science-and-technology/cell-bioprint/" linkText="Cell BioPrint"/>
+        <button_2 sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="/en/articles/science-and-technology/loreals-creaitech/" linkText=""/>
+        <button_3 sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="/en/articles/science-and-technology/loreals-creaitech/" linkText="CreAItech"/>
+        <button_4 sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="/en/articles/brands/hapta-lancome/" linkText=""/>
+        <button_5 sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="/en/articles/brands/hapta-lancome/" linkText="HAPTA"/>
+        <button_6 sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="#main-content" linkText="Back on Top"/>
+      </section_4>
+    </root>
+  </jcr:content>
+</jcr:root>

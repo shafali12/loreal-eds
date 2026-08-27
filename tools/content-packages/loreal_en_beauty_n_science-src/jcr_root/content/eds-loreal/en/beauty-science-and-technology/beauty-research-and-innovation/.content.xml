@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" jcr:primaryType="cq:Page">
+  <jcr:content cq:template="/libs/core/franklin/templates/page" sling:resourceType="core/franklin/components/page/v1/page" jcr:primaryType="cq:PageContent" jcr:title="" modelFields="[jcr:title,jcr:description,keywords]">
+    <root jcr:primaryType="nt:unstructured" sling:resourceType="core/franklin/components/root/v1/root">
+      <section sling:resourceType="core/franklin/components/section/v1/section" jcr:primaryType="nt:unstructured" model="section" modelFields="[name,style]">
+        <block sling:resourceType="core/franklin/components/block/v1/block" jcr:primaryType="nt:unstructured" image="https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/5-science-and-technology/2026/r-and-i/man--woman-in-lab-coats-doing-science-in-a-laboratory-research--innovation-kv-desk.jpg?rev=0da47dbedbfe41439f23e1e3781d1a1c&amp;cx=0.33&amp;cy=0.37&amp;cw=1920&amp;ch=800&amp;blr=False&amp;hash=F0C4E0C7E66A7884DC0ABC6FCF4EF463" model="hero-stage" modelFields="[image,imageAlt,text]" name="Hero Stage" text="&lt;p&gt;&lt;h1&gt;Beauty Research &amp;#x26; Innovation&lt;/h1&gt;&lt;/p&gt;&lt;p&gt;Shaping tomorrow’s Beauty through science&lt;/p&gt;"></block>
+        <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;ul&gt;
+                    &lt;li&gt;&lt;a href&#x3D;&quot;/en/&quot;&gt;L&#x27;Oréal Groupe&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href&#x3D;&quot;/en/beauty-science-and-technology/&quot;&gt;Beauty Science &amp;#x26; Technology&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;Beauty Research &amp;#x26; Innovation&lt;/strong&gt;&lt;/li&gt;
+                    &lt;/ul&gt;"/>
+      </section>
+      <section_1 sling:resourceType="core/franklin/components/section/v1/section" jcr:primaryType="nt:unstructured" model="section" modelFields="[name,style]">
+        <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;Close&lt;/p&gt;"/>
+        <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="Focus On Research &amp; Innovation" titleType="h2"/>
+        <text_1 sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;Dive into our constant search for cutting edge scientific discoveries and game-changing technologies, for more and more transparency and trust in our products, with no compromise on quality, efficacy and safety.&lt;/p&gt;"/>
+        <image sling:resourceType="core/franklin/components/image/v1/image" jcr:primaryType="nt:unstructured" image="https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/5-science-and-technology/2026/r-and-i/beauty-full-of-science/articles/science-for-people--face-of-woman-with-blue-eyes-with-serum-on-face--kv-card.jpg?rev&#x3D;-1&amp;cx&#x3D;0.31&amp;cy&#x3D;0.49&amp;cw&#x3D;216&amp;ch&#x3D;400&amp;blr&#x3D;False&amp;hash&#x3D;7E1FC9877A545E5614B3E9B469D43397" imageAlt=""/>
+        <text_2 sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;Our Beauty Science for People&lt;/p&gt;"/>
+        <button sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="/en/beauty-science-and-technology/beauty-research-and-innovation/our-beauty-science-for-people/" linkText="Our Beauty Science for People"/>
+        <image_1 sling:resourceType="core/franklin/components/image/v1/image" jcr:primaryType="nt:unstructured" image="https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/5-science-and-technology/2026/r-and-i/beauty-full-of-science/beauty-full-of-science--hand-pouring-blue-scientific-liquid-kv-desk.jpg?rev&#x3D;416eff7df832416ab01a6ae1875a6cc4&amp;cx&#x3D;0.51&amp;cy&#x3D;0.54&amp;cw&#x3D;216&amp;ch&#x3D;400&amp;blr&#x3D;False&amp;hash&#x3D;17CD34DBE50A1BDE09F6545E4FA123E1" imageAlt=""/>
+        <text_3 sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;Beauty Full of Science&lt;/p&gt;"/>
+        <button_1 sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="/en/commitments-and-responsibilities/for-our-products/beauty-full-of-science/" linkText="Beauty Full of Science"/>
+        <image_2 sling:resourceType="core/franklin/components/image/v1/image" jcr:primaryType="nt:unstructured" image="https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/5-science-and-technology/2026/r-and-i/scientific-publications/scientific-innovations-ai-generated-cell--kv-desk.jpg?rev&#x3D;-1&amp;cx&#x3D;0.45&amp;cy&#x3D;0.39&amp;cw&#x3D;216&amp;ch&#x3D;400&amp;blr&#x3D;False&amp;hash&#x3D;342434C4E50C5BE58D25072DB6BF926A" imageAlt=""/>
+        <text_4 sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;Our Scientific Publications&lt;/p&gt;"/>
+        <button_2 sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="/en/beauty-science-and-technology/beauty-research-and-innovation/our-scientific-publications/" linkText="Our Scientific Publications"/>
+      </section_1>
+      <section_2 sling:resourceType="core/franklin/components/section/v1/section" jcr:primaryType="nt:unstructured" model="section" modelFields="[name,style]">
+        <columns sling:resourceType="core/franklin/components/columns/v1/columns" jcr:primaryType="nt:unstructured" rows="1" columns="1">
+          <row1 jcr:primaryType="nt:unstructured">
+            <col1 jcr:primaryType="nt:unstructured">
+              <image sling:resourceType="core/franklin/components/image/v1/image" jcr:primaryType="nt:unstructured" image="blob:https://www.loreal.com/625c8842-a39a-4bd7-8eeb-4ce7315a74dc" imageAlt="BL official portrait"/>
+              <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;Barbara Lavernos&lt;/p&gt;&lt;p&gt;Deputy Chief Executive Officer, in charge of Research, Innovation and Technology&lt;/p&gt;&lt;p&gt;Research &amp;#x26; Innovation is at the heart of the Group’s strategy&lt;/p&gt;&lt;blockquote&gt;
+                    &lt;p&gt;At L’Oréal, there is no innovation without science, and that’s what has made us different since 1909. It was the
+                    original gamble that Eugène Schueller took when he created the company.&lt;/p&gt;
+                    &lt;p&gt;Every day, more than 4,000 people work in our Research &amp;#x26; Innovation centers around the world. They discover, invent
+                    and develop, providing a continuously improving response to the Beauty needs and aspirations of consumers, while the
+                    products they create are ever more effective, and provide the highest standards of quality and safety.&lt;/p&gt;
+                    &lt;p&gt;&lt;strong&gt;Our ambition is to go even further:&lt;/strong&gt;&lt;/p&gt;
+                    &lt;p&gt;- By contributing to a more sustainable future, thanks to scientific progress and the complementary nature of our
+                    expertise in green chemistry, biology, biotechnology and the eco-design of our formulations.&lt;/p&gt;
+                    &lt;p&gt;- By responding to the diversity of needs and aspirations of our customers with beauty that is ever more inclusive
+                    and personalized, thanks to the use of data, algorithms and Artificial Intelligence.&lt;/p&gt;
+                    &lt;p&gt;By doing this, L’Oréal Research &amp;#x26; Innovation is accelerating its drive for continuous progress, helping all the
+                    different types of beauty around the world and the consumers of tomorrow.&lt;/p&gt;
+                    &lt;/blockquote&gt;"/>
+              <image_1 sling:resourceType="core/franklin/components/image/v1/image" jcr:primaryType="nt:unstructured" image="blob:https://www.loreal.com/b3082224-3dec-4369-9791-dc873fbca381" imageAlt="BL official portrait"/>
+              <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="Barbara Lavernos" titleType="h3"/>
+              <text_1 sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;Deputy Chief Executive Officer, in charge of Research, Innovation and Technology&lt;/p&gt;"/>
+              <title_1 sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="Research &amp; Innovation is at the heart of the Group’s strategy" titleType="h2"/>
+              <text_2 sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;blockquote&gt;
+                    &lt;p&gt;At L’Oréal, there is no innovation without science, and that’s what has made us different since 1909. It was the
+                    original gamble that Eugène Schueller took when he created the company.&lt;/p&gt;
+                    &lt;p&gt;Every day, more than 4,000 people work in our Research &amp;#x26; Innovation centers around the world. They discover, invent
+                    and develop, providing a continuously improving response to the Beauty needs and aspirations of consumers, while the
+                    products they create are ever more effective, and provide the highest standards of quality and safety.&lt;/p&gt;
+                    &lt;p&gt;&lt;strong&gt;Our ambition is to go even further:&lt;/strong&gt;&lt;/p&gt;
+                    &lt;p&gt;- By contributing to a more sustainable future, thanks to scientific progress and the complementary nature of our
+                    expertise in green chemistry, biology, biotechnology and the eco-design of our formulations.&lt;/p&gt;
+                    &lt;p&gt;- By responding to the diversity of needs and aspirations of our customers with beauty that is ever more inclusive
+                    and personalized, thanks to the use of data, algorithms and Artificial Intelligence.&lt;/p&gt;
+                    &lt;p&gt;By doing this, L’Oréal Research &amp;#x26; Innovation is accelerating its drive for continuous progress, helping all the
+                    different types of beauty around the world and the consumers of tomorrow.&lt;/p&gt;
+                    &lt;/blockquote&gt;"/>
+            </col1>
+          </row1>
+        </columns>
+      </section_2>
+      <section_3 sling:resourceType="core/franklin/components/section/v1/section" jcr:primaryType="nt:unstructured" model="section" modelFields="[name,style]">
+        <columns sling:resourceType="core/franklin/components/columns/v1/columns" jcr:primaryType="nt:unstructured" rows="1" columns="1">
+          <row1 jcr:primaryType="nt:unstructured">
+            <col1 jcr:primaryType="nt:unstructured">
+              <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;&lt;strong&gt;985&lt;sup&gt;M€&lt;/sup&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;invested in R&amp;#x26;I&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;497&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;patents registered&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;4100&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;people&lt;/strong&gt;&lt;/p&gt;"/>
+              <button sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="/en/articles/research%20innovation/2020/03/18/16/06/research%20and%20innovation%20in%20key%20figures/%0A" linkText="To Learn More"/>
+              <text_1 sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;&lt;strong&gt;21&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;research centers&lt;/strong&gt;&lt;/p&gt;"/>
+            </col1>
+          </row1>
+        </columns>
+        <button sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="#main-content" linkText="Back on Top"/>
+      </section_3>
+    </root>
+  </jcr:content>
+</jcr:root>
