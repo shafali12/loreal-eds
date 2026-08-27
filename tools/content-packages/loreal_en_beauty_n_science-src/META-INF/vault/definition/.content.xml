@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="vlt:PackageDefinition"
+    jcr:description="Beauty Science &amp; Technology pages imported from loreal.com. Blocks: hero-stage, columns-media."
+    group="loreal-eds"
+    name="loreal_en_beauty_n_science"
+    version="1.0.0"
+    acHandling="merge_preserve"
+    requiresRoot="false"
+    testedWith=""
+    builtWith="excat-migration">
+  <filter jcr:primaryType="nt:unstructured">
+    <f0 jcr:primaryType="nt:unstructured" root="/content/eds-loreal/en/beauty-science-and-technology" mode="replace"/>
+    <f1 jcr:primaryType="nt:unstructured" root="/content/eds-loreal/en" mode="merge"/>
+  </filter>
+</jcr:root>

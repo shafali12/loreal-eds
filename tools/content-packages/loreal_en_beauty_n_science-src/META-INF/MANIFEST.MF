@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Content-Package-Type: content
+Content-Package-Id: loreal-eds:loreal_en_beauty_n_science:1.0.0
+Content-Package-Roots: /content/eds-loreal/en
+Created-By: excat-migration
+Implementation-Title: loreal_en_beauty_n_science
+Implementation-Version: 1.0.0
+

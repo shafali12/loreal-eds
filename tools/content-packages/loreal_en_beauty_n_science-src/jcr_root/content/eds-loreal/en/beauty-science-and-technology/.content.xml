@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" jcr:primaryType="cq:Page">
+  <jcr:content cq:template="/libs/core/franklin/templates/page" sling:resourceType="core/franklin/components/page/v1/page" jcr:primaryType="cq:PageContent" jcr:title="" modelFields="[jcr:title,jcr:description,keywords]">
+    <root jcr:primaryType="nt:unstructured" sling:resourceType="core/franklin/components/root/v1/root">
+      <section sling:resourceType="core/franklin/components/section/v1/section" jcr:primaryType="nt:unstructured" model="section" modelFields="[name,style]">
+        <block sling:resourceType="core/franklin/components/block/v1/block" jcr:primaryType="nt:unstructured" image="https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/5-science-and-technology/2026/beauty-tech/2025beautytechhrpowercellshieldrgb01042027womanbrightblueeyesdarkhairlookingforward-1.jpg?rev=53e5e8aa08044166810b55510c383ce1&amp;cx=0.46&amp;cy=0.38&amp;cw=1920&amp;ch=800&amp;blr=False&amp;hash=B0DC2D0DE72802E1C464B016BB1A1FF3" model="hero-stage" modelFields="[image,imageAlt,text]" name="Hero Stage" text="&lt;p&gt;&lt;h1&gt;Beauty Science &amp;#x26; Technology&lt;/h1&gt;&lt;/p&gt;&lt;p&gt;Outpace advances in science through technology&lt;/p&gt;"></block>
+      </section>
+      <section_1 sling:resourceType="core/franklin/components/section/v1/section" jcr:primaryType="nt:unstructured" model="section" modelFields="[name,style]">
+        <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;Dive into the captivating world where beauty meets technology. From AI skin tech to AR virtual try-ons, the future of beauty is being reinvented by cutting-edge advancements from L&#x27;Oréal.&lt;/p&gt;"/>
+      </section_1>
+      <section_2 sling:resourceType="core/franklin/components/section/v1/section" jcr:primaryType="nt:unstructured" model="section" modelFields="[name,style]">
+        <columns sling:resourceType="core/franklin/components/columns/v1/columns" jcr:primaryType="nt:unstructured" rows="1" columns="2">
+          <row1 jcr:primaryType="nt:unstructured">
+            <col1 jcr:primaryType="nt:unstructured">
+              <image sling:resourceType="core/franklin/components/image/v1/image" jcr:primaryType="nt:unstructured" image="https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/5-science-and-technology/2026/beauty-tech/2025-science--technology-beauty-tech-woman-with-blue-eyes--white-background-with-skin-diagnosis.jpg?h&#x3D;1080&amp;w&#x3D;1080&amp;rev&#x3D;1accfd3565614b9cb4e00d83343af417&amp;hash&#x3D;3A1DE85C76FECB3EA473A0D6AD9488CF" imageAlt="2025 Science technology Beauty Tech Woman with Blue eyes white Background with Skin Diagnosis"/>
+            </col1>
+            <col2 jcr:primaryType="nt:unstructured">
+              <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="Beauty Tech at L&#x27;Oréal" titleType="h2"/>
+              <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;At the heart of L&#x27;Oréal’s Beauty Tech strategy is a drive for personalization, inclusivity and
+                    responsibility. Our Beauty Tech teams are a testament to the company&#x27;s commitment to pushing the
+                    boundaries of innovation in the beauty industry, pioneering the creation of highly personalized,
+                    inclusive and responsible beauty solutions.&lt;/p&gt;&lt;p&gt;The company has made significant strides in the realm of Beauty Tech, launching groundbreaking
+                    products and services like L’Oréal Paris Beauty Genius, HAPTA, or HairLight Pro. These innovations
+                    embody the company&#x27;s dedication to inclusivity, addressing individual consumer needs and preferences.&lt;/p&gt;&lt;p&gt;L&#x27;Oréal’s Beauty Tech journey also includes initiatives in seamless online-offline consumer
+                    experiences and leveraging AI and data analysis for enhanced personalization. The commitment to
+                    Beauty Tech is also evident in the company&#x27;s collaborative efforts with external partners and
+                    startups to develop a new generation of innovative beauty products, devices, and digital services.&lt;/p&gt;"/>
+              <button sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="https://www.loreal.com/en/beauty-science-and-technology/beauty-tech/" linkText="Discover the future of beauty"/>
+            </col2>
+          </row1>
+        </columns>
+      </section_2>
+      <section_3 sling:resourceType="core/franklin/components/section/v1/section" jcr:primaryType="nt:unstructured" model="section" modelFields="[name,style]">
+        <columns sling:resourceType="core/franklin/components/columns/v1/columns" jcr:primaryType="nt:unstructured" rows="1" columns="2">
+          <row1 jcr:primaryType="nt:unstructured">
+            <col1 jcr:primaryType="nt:unstructured">
+              <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="The Green Sciences revolution" titleType="h2"/>
+              <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;L&#x27;Oréal&#x27;s Green Sciences program represents a significant
+                    step towards a more sustainable future for the beauty
+                    industry. This initiative aims to harness the power of
+                    green sciences, including agronomy, biotech, green
+                    chemistry, and formulation, to create safe, effective,
+                    and environmentally-friendly products. Over the past
+                    decade, green sciences have been integral to L&#x27;Oréal&#x27;s
+                    product design and manufacturing process, playing a
+                    critical role in the company&#x27;s transition towards
+                    sustainability.&lt;/p&gt;&lt;p&gt;Thanks to our unique collection of proprietary active
+                    ingredients, L’Oréal’s Research &amp;#x26; Innovation teams are
+                    developing cutting-edge innovations in the formulation
+                    process. Our priority is to ensure the quality and
+                    sustainability of our ingredients in order to preserve
+                    global biodiversity and guarantee our customers’ safety.&lt;/p&gt;"/>
+            </col1>
+            <col2 jcr:primaryType="nt:unstructured">
+              <image sling:resourceType="core/franklin/components/image/v1/image" jcr:primaryType="nt:unstructured" image="https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/5-science-and-technology/2026/beauty-tech/2026-green-sciences-images-with-scientific-objects--ingredients.jpg?rev&#x3D;c34d150288404dc09ac9d5e0ff97bf47&amp;hash&#x3D;FE6CBC1484EAB2CBC0F5DA5ABF01D697" imageAlt="2026 Green Sciences Images with Scientific objects ingredients"/>
+            </col2>
+          </row1>
+        </columns>
+      </section_3>
+      <section_4 sling:resourceType="core/franklin/components/section/v1/section" jcr:primaryType="nt:unstructured" model="section" modelFields="[name,style]">
+        <columns sling:resourceType="core/franklin/components/columns/v1/columns" jcr:primaryType="nt:unstructured" rows="1" columns="2">
+          <row1 jcr:primaryType="nt:unstructured">
+            <col1 jcr:primaryType="nt:unstructured">
+              <image sling:resourceType="core/franklin/components/image/v1/image" jcr:primaryType="nt:unstructured" image="https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/5-science-and-technology/loreal-open-innovation/l-oreal-innovation-program/beauty-tech-atelier-2025/image.jpg?rev&#x3D;76c388d984c649fd921bbc1478b611ce&amp;hash&#x3D;00AA870D27C0853DE5A44C386B6997A5" imageAlt="Image"/>
+            </col1>
+            <col2 jcr:primaryType="nt:unstructured">
+              <title sling:resourceType="core/franklin/components/title/v1/title" jcr:primaryType="nt:unstructured" title="L&#x27;Oréal Open innovation" titleType="h2"/>
+              <text sling:resourceType="core/franklin/components/text/v1/text" jcr:primaryType="nt:unstructured" text="&lt;p&gt;The L&#x27;Oréal Open Innovation program is a strategic approach that combines internal and external ideas to
+                    drive the company&#x27;s innovation in beauty and digital technologies. This program is focused on fostering
+                    collaboration with early-stage companies that are reinventing digital beauty services.&lt;/p&gt;&lt;p&gt;Our Open Innovation program has led to several breakthroughs. For instance, we have partnered with Station F,
+                    Founders Factory, and Partech Ventures to launch our first Open Innovation program. Moreover, initiatives
+                    such as the L&#x27;Oréal North Asia Big Bang Beauty Tech Innovation Program have showcased the company&#x27;s
+                    commitment to fostering open innovation and co-creation of innovative beauty solutions in different regions.&lt;/p&gt;"/>
+              <button sling:resourceType="core/franklin/components/button/v1/button" jcr:primaryType="nt:unstructured" link="https://www.loreal.com/en/beauty-science-and-technology/l-oreal-open-innovation/" linkText="We Believe in Partnership"/>
+            </col2>
+          </row1>
+        </columns>
+      </section_4>
+    </root>
+  </jcr:content>
+</jcr:root>
